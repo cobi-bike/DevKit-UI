@@ -1,0 +1,45 @@
+//
+// Add here your css to adjust cobi-style library to your needs
+// --------------------------------------------------
+@import "variables";
+
+  .content-padded {
+    h3 {
+      margin-top: 100px;
+    }
+  }
+
+  .content {
+
+    .input-transparent {
+          margin-top: 100px;
+    }
+
+    button {
+      margin-top: 35px;
+    }
+  }
+
+  /* Landscape */
+@media only screen and (orientation: landscape) {
+
+    .content-padded {
+      h3 {
+        margin-top: 50px;}
+    }
+
+    .content {
+      &.blue {
+          .content-bg{
+            bottom: -100px;
+          }
+      }
+      .input-transparent {
+            margin-top: 50px;
+      }
+
+      button {
+        margin-top: 40px;
+      }
+    }
+}

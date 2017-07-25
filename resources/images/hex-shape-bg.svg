@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="151px" viewBox="0 0 375 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>hex-shape-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M287.539476,775.835923 L186.738592,791.801215 L93.9360858,508.631114 C91.5283212,501.284255 93.7033789,490.610748 98.7920073,484.793691 L158.438313,416.609116 L228.876552,405.452795 L287.539476,775.835923 Z" id="path-1"></path>
+        <filter x="-0.8%" y="-0.4%" width="101.5%" height="101.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.211764708   0 0 0 0 0.211764708   0 0 0 0 0.211764708  0 0 0 0.170000002 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Widget-InfoView" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Template-Info-View-Copy-10" transform="translate(0.000000, -516.000000)">
+            <g id="hex-shape-bg" transform="translate(190.247068, 598.627005) rotate(-261.000000) translate(-190.247068, -598.627005) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#00C8E6" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

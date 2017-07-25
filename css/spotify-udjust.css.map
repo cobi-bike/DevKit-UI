@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,WAAW,CACT,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,IAAI",
+"sources": ["../sass/spotify-udjust.scss"],
+"names": [],
+"file": "spotify-udjust.css"
+}

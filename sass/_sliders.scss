@@ -1,0 +1,39 @@
+//
+// Slider styles (to be used with sliders.js)
+// --------------------------------------------------
+
+// Width of slider
+.img-slider {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+// Outer wrapper for slider
+.img-slider {
+  overflow: hidden;
+
+  // Inner wrapper for slider (width of all slides together)
+  .slide-group {
+    position: relative;
+    font-size: 0; // Remove spaces from inline-block children
+    white-space: nowrap;
+    @include transition(all 0s linear);
+
+    // Individual slide
+    .slide {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      font-size: 14px;
+      vertical-align: top; // Ensure that li always aligns to top
+    }
+
+    .slide img{
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      height: auto;
+    }
+  }
+}

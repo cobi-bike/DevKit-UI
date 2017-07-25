@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>COBI template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled COBI CSS -->
+    <link href="css/cobi-style.css" rel="stylesheet">
+
+    <!-- Include the compiled COBI JS -->
+    <script src="js/cobi-style.js"></script>
+
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar">
+      <h1 class="title">COBI style</h1>
+      <a class="icon icon-info pull-right" href="#myModalexample" data-transition="slide-out"></a>
+
+      <div id="myModalexample" class="modal">
+        <header class="bar light">
+          <a class="icon icon-close pull-right" href="#myModalexample"></a>
+        </header>
+        <div class="content">
+          <p class="content-padded text-center">The contents of my modal go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+          <ul class="table-view">
+            <li class="table-view-cell"><a class="navigate-right" href="settings.html" data-transition="slide-in">Load new page with push</a></li>
+            <li class="table-view-cell table-view-cell"><a class="navigate-right">Item 2</a></li>
+            <li class="table-view-cell">COBI toggle<label class="toggle"><input type="checkbox"><div class="slider round"></div></label></li>
+            <li class="table-view-cell"><a>Item 1</a></li>
+            <li class="table-view-cell table-view-cell"><a>Item 2</a></li>
+            <li class="table-view-cell">COBI toggle<label class="toggle"><input type="checkbox" checked><div class="slider round"></div></label></li>
+            <li class="table-view-divider">Divider</li>
+            <li class="table-view-cell"><a class="navigate-right">Item 1</a></li>
+            <li class="table-view-divider">Divider</li>
+          </ul>
+          <form class="input-group">
+            <div class="input-row">
+              <label>Full name</label>
+              <input type="date" placeholder="21.02.2017">
+            </div>
+            <div class="input-row">
+              <label>Email</label>
+              <input type="email" placeholder="cobistyle@gmail.com">
+            </div>
+            <div class="input-row">
+              <label>Username</label>
+              <input type="text" placeholder="cobistyle">
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- Wrap all non-bar HTML in the .content(...) div (this is actually what scrolls) -->
+    <div class="content blue">
+        <div class="content-padded">
+          <h1 >COBI Style framework!</h1>
+          <h3 class="text-center">What is your WebApp url?</h3>
+          <h3>COBI Style framework!</h3>
+          <h4>COBI Style framework!</h4>
+          <h5>COBI Style framework!</h5>
+          <h6>COBI Style framework!</h6>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco.</p>
+      </div>
+
+        <div class="input-transparent">
+          <input type="mail" placeholder="http://example.com">
+        </div>
+
+      <div class="content-padded">
+        <button class="btn">Open WebApp</button>
+        <button class="btn disabled">Open WebApp</button>
+        <button class="btn">Open WebApp<span class="icon icon-right-nav"></span></button>
+
+      </div>
+    </div>
+
+
+
+
+  </body>
+</html>

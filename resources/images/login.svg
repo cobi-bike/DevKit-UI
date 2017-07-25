@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="32px" viewBox="0 0 30 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>login</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5" y="0" width="18" height="25" rx="9"></rect>
+    </defs>
+    <g id="Widget-InfoView" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login-Copy-3" transform="translate(-32.000000, -99.000000)">
+            <g id="Eingabefeld-01" transform="translate(25.000000, 99.000000)">
+                <g id="login" transform="translate(8.000000, 0.000000)">
+                    <path d="M10.4702713,22.0656636 L8.67051995,27.8122313 L4.38590043,27.8122313 C2.264493,27.8122313 0.538268094,29.485147 0.419373161,31.593925" id="Rectangle-2326-path-2" stroke="#2D2D37" stroke-width="1.5"></path>
+                    <path d="M27.4702713,22.0656636 L25.6705199,27.8122313 L21.3859004,27.8122313 C19.264493,27.8122313 17.5382681,29.485147 17.4193732,31.593925" id="Rectangle-2326-path-2-Copy" stroke="#2D2D37" stroke-width="1.5" transform="translate(22.444822, 26.829794) scale(-1, 1) translate(-22.444822, -26.829794) "></path>
+                    <g id="Rectangle-340">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#2D2D37" stroke-width="1.5" x="5.75" y="0.75" width="16.5" height="23.5" rx="8.25"></rect>
+                    </g>
+                    <g id="Augen" transform="translate(10.026848, 11.197989)" fill="#2D2D37">
+                        <circle id="Oval-554" cx="1.19573621" cy="1.39066555" r="1"></circle>
+                        <circle id="Oval-554-Copy" cx="6.20916005" cy="1.39066555" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,57 @@
+//
+// Buttons
+// --------------------------------------------------
+
+.btn {
+  position: relative;
+  display: block;
+  padding: 14px 35px 14px 35px;
+  margin: 10px auto;
+  font-size: 20px;
+  font-family: 'UniSansBook';
+  font-size: 18px;
+  line-height: 1;
+  color: $tarmac-color;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 40px;
+
+  // Active & filled button styles
+  &:active,
+  &.active {
+    color: inherit; // Overriding the gloabl style for all anchors.
+    background-color: #fff;
+  }
+
+  // Disabled styles & filled button active styles
+  &:disabled,
+  &.disabled {
+    background-color: $gray-color;
+    color: $gray-dark-color;
+  }
+
+  &.blue{
+    background-color: $surf-blue-color;
+  }
+}
+
+
+// Block buttons
+// --------------------------------------------------
+
+.btn-block {
+  padding: 14px 60px 14px 60px;
+}
+
+
+// Buttons with Icons
+// --------------------------------------------------
+
+.btn .icon {
+  font-size: inherit;
+  margin-left: 10px;
+}

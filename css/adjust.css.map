@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMI,kBAAG,CACD,UAAU,CAAE,KAAK,CAMnB,2BAAmB,CACb,UAAU,CAAE,KAAK,CAGvB,eAAO,CACL,UAAU,CAAE,IAAI,CAKtB,+CAAgD,CAG1C,kBAAG,CACD,UAAU,CAAE,IAAI,CAKd,yBAAW,CACT,MAAM,CAAE,MAAM,CAGpB,2BAAmB,CACb,UAAU,CAAE,IAAI,CAGtB,eAAO,CACL,UAAU,CAAE,IAAI",
+"sources": ["../sass/adjust.scss"],
+"names": [],
+"file": "adjust.css"
+}

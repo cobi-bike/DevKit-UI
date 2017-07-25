@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>COBI template page</title>
+
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Include the compiled COBI CSS -->
+  <link href="css/cobi-style.css" rel="stylesheet">
+  <!-- Include the your compiled styles when you want to adjust styles to your needs -->
+  <link href="css/spotify-udjust.css" rel="stylesheet">
+
+
+  <!-- Include the compiled COBI JS -->
+  <script src="js/cobi-style.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Settings view header -->
+  <header class="bar gray">
+    <a class="icon icon-info pull-right" href="#myModalexample" data-transition="slide-out"></a>
+
+
+    <!-- Info view start -->
+    <div id="myModalexample" class="modal">
+
+      <header class="bar light">
+        <a class="icon icon-close pull-right" href="#myModalexample" data-transition="slide-out"></a>
+      </header>
+
+      <div class="content">
+        <img class="content-bg" src="resources/images/hex-shape-bg.svg" alt="">
+
+        <div class="app-info-header">
+          <img class="app-icon" src="resources/images/app_icon.jpg">
+        </div>
+
+        <div class="content-padded">
+          <h3 class="text-center">Spotify app</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div class="img-slider" id="mySlider">
+  <div class="slide-group">
+    <div class="slide">
+      <img src="resources/images/slide1.jpg">
+    </div>
+    <div class="slide">
+      <img src="resources/images/slide2.jpg">
+    </div>
+    <div class="slide">
+      <img src="resources/images/slide3.jpg">
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    <!-- Info view end -->
+
+
+  </header>
+
+  <!-- Settings view content -->
+  <div class="content gray">
+    <div class="content-padded">
+    <p class="content-padded text-center">If you want to use Spotify app, you have log in first, then you will have acces to Spotify app. The contents of my modal go here. </p>
+    </div>
+
+    <!-- <ul class="table-view">
+      <li class="table-view-divider">Settings</li>
+    </ul> -->
+
+    <form class="input-group">
+      <!-- <div class="input-row">
+        <label>Login</label>
+        <input type="email" placeholder="">
+      </div>
+      <div class="input-row">
+        <label>Password</label>
+        <input type="password" placeholder="">
+      </div>
+    </form>
+    <br><br> -->
+    <form class="input-group">
+      <div class="input-icon">
+         <span class="icon icon-person"></span>
+        <input class="login-icon" type="text" placeholder="Your login">
+      </div>
+      <div class="input-icon">
+        <span class="icon icon-more"></span>
+      <input type="password" placeholder="Password">
+      </div>
+    </form>
+    <button class="btn btn-block blue">Log In</button>
+  </div>
+
+
+</body>
+
+</html>

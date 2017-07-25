@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>COBI template page</title>
+
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Include the compiled COBI CSS -->
+  <link href="css/cobi-style.css" rel="stylesheet">
+  <!-- Include the your compiled styles when you want to adjust styles to your needs -->
+  <link href="css/adjust.css" rel="stylesheet">
+
+  <!-- Include the compiled COBI JS -->
+  <script src="js/cobi-style.js"></script>
+
+</head>
+
+<body>
+  <div class="content blue">
+    <img class="content-bg" src="resources/images/bottom_bg.svg" alt="">
+
+    <div class="content-padded">
+      <h3 class="text-center">What is your WebApp url?</h3>
+    </div>
+
+    <div class="input-transparent">
+      <input id="url" type="url" placeholder="http://example.com" required pattern="http?://.+">
+    </div>
+
+    <form id="submit-url" type="submit">
+      <button id="url-button" class="btn" target="_blank">Open WebApp</button>
+    </form>
+  </div>
+</body>
+
+<script>
+  document.getElementById("url-button").disabled = true
+  var regex = /^http(s)?:\/\/(www)?\w+(\.\w+)+(\/\w+)*$/
+  var url = document.getElementById("url")
+  url.addEventListener("input", function(event) {
+    console.log("url changed", url.value)
+    if (url.value.match(regex)) {
+      document.getElementById("url-button").disabled = false
+      document.getElementById("submit-url").action = url.value
+    } else {
+      document.getElementById("url-button").disabled = true
+    }
+  })
+</script>
+
+</html>
