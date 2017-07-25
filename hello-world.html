@@ -34,9 +34,7 @@
       <input id="url" type="url" placeholder="http://example.com" required pattern="http?://.+">
     </div>
 
-    <form id="submit-url" type="submit">
       <button id="url-button" class="btn" target="_blank">Open WebApp</button>
-    </form>
   </div>
 </body>
 
@@ -48,7 +46,9 @@
     console.log("url changed", url.value)
     if (url.value.match(regex)) {
       document.getElementById("url-button").disabled = false
-      document.getElementById("submit-url").action = url.value
+      document.getElementById("url-button").onclick = function() {
+          window.location = url.value
+      }
     } else {
       document.getElementById("url-button").disabled = true
     }
