@@ -8,9 +8,37 @@
   bottom: 90px;
 }
 
+.btn {
+  &.blue{
+    margin-top: 50px;
+  }
+}
+
+.content-padded {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
 
   /* Landscape */
 @media only screen and (orientation: landscape) {
+  .app-info-header {
+    display: none;
+  }
+
+  .img-slider {
+    position: absolute;
+    bottom: 30px;
+
+    .slide-group .slide img {width: 45%;}
+  }
+
+  .content{
+    .content-bg{
+      display: none;
+    }
+  }
+
 
 
 }
