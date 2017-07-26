@@ -35,7 +35,14 @@
     </div>
 
       <button id="url-button" class="btn" target="_blank">Open WebApp</button>
+      <!-- <div id="spiner">
+        <svg width="50" height="auto" id="infinity_loader" viewBox="0 0 100 55">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"><g id="Background" transform="translate(-4540.000000, -2006.000000)" stroke="#FFFFFF" stroke-width="5"><path d="M4593.24263,2042.26254 C4595.18535,2049.99195 4602.888,2052.8618 4602.888,2052.8618 C4605.992,2054.3648 4609.476,2055.2068 4613.157,2055.2068 C4626.193,2055.2068 4636.761,2044.6388 4636.761,2031.6038 C4636.761,2018.5678 4626.193,2007.9998 4613.157,2007.9998 C4601.693,2007.9998 4592.138,2016.1728 4590,2027.0098 L4588.761,2036.1968 C4586.623,2047.0338 4577.068,2055.2068 4565.604,2055.2068 C4552.568,2055.2068 4542,2044.6388 4542,2031.6038 C4542,2018.5678 4552.568,2007.9998 4565.604,2007.9998 C4569.284,2007.9998 4572.768,2008.8418 4575.873,2010.3448 C4575.873,2010.3448 4583.07027,2013.85339 4584.99504,2021.67304" class="infinity_loader_path"></path></g></g>
+        </svg>
+      </div> -->
   </div>
+
+
 </body>
 
 <script>
@@ -48,7 +55,7 @@
       document.getElementById("url-button").disabled = false
       document.getElementById("url-button").onclick = function() {
           window.location = url.value
-          document.getElementById("url-button").style.display = "none"    }
+          document.getElementById("url-button").style.display = "none"   }
     } else {
       document.getElementById("url-button").disabled = true
     }

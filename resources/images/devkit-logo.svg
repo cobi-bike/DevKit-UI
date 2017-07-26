@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="108px" viewBox="0 0 97 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>app-hello-world-wheel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M53.08179,1.5257 L92.30563,23.79222 C95.15606,25.41035 96.91721,28.43525 96.91721,31.71294 L96.91721,75.98115 C96.91721,79.25884 95.15606,82.28375 92.30563,83.90188 L53.08179,106.168397 C50.29317,107.751433 46.87756,107.751433 44.08894,106.168397 L4.865096,83.90188 C2.01467,82.28375 0.253517,79.25884 0.253517,75.98115 L0.253517,31.71294 C0.253517,28.43525 2.01467,25.41035 4.865096,23.79222 L44.08894,1.5257 C46.87756,-0.0573 50.29317,-0.0573 53.08179,1.5257 Z" id="path-1"></path>
+        <path d="M0,0 L110,0 L110,110 L0,110 L0,0 Z M55,76 C66.5979797,76 76,66.5979797 76,55 C76,43.4020203 66.5979797,34 55,34 C43.4020203,34 34,43.4020203 34,55 C34,66.5979797 43.4020203,76 55,76 Z" id="path-3"></path>
+    </defs>
+    <g id="Manage-modules" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-hello-world-wheel">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" opacity="0" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)">
+                <g transform="translate(-6.000000, -1.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" stroke="none" fill="#444354" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <circle id="Oval-5-Copy" stroke="none" fill="#02C8E8" fill-rule="evenodd" mask="url(#mask-4)" cx="98.1507834" cy="27.2618945" r="37.0396722"></circle>
+                    <circle id="Oval-5-Copy-3" stroke="none" fill="#FFCF03" fill-rule="evenodd" mask="url(#mask-4)" cx="10.1507834" cy="27.2618945" r="37.0396722"></circle>
+                    <circle id="Oval-5-Copy-4" stroke="none" fill="#FF4869" fill-rule="evenodd" mask="url(#mask-4)" cx="54.1507834" cy="100.595228" r="37.0396722"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

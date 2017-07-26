@@ -39,17 +39,23 @@
   }
   .indicators-group {
 
-    display: block;
-    margin: 0 auto;
+   position: relative;
+   display: flex;
 
     .indicators{
+      display: inline-block;
+      width: auto;
+      height: 100%;
+      vertical-align: top;
+      margin: 0 auto;
+      padding: 0;
 
     .dot-style{
       float: left;
       margin-left: 10px;
       list-style: none;
       &.active::before{
-        background-color: pink;
+        background-color: black;
       }
     }
 
@@ -58,7 +64,7 @@
       content: "";
       width: 6px;
       height: 6px;
-      background-color: $surf-blue-color;
+      background-color: $surf-dark-color;
       border-radius: 10px;
 
     }

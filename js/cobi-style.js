@@ -599,7 +599,6 @@
     deltaY         = 0;
 
     setSlideNumber(0);
-
     slider.style['-webkit-transition-duration'] = 0;
   };
 
@@ -652,6 +651,20 @@
     });
 
     slider.parentNode.dispatchEvent(e);
+
+    var indicators = document.querySelectorAll('.img-slider > .indicators-group > .indicators');
+    //console.log(document.querySelectorAll('.img-slider > .indicators-group > .indicators > .active'))
+    var children = indicators[0].children
+    for (var i= 0; i < children.length; i++) {
+      if(children[i].className.includes('active')) {
+          children[i].classList.remove('active')
+      }
+      if (i === Math.abs(slideNumber)) {
+        children[i].classList.add('active');
+      }
+    }
+    //console.log(indicators[0].children)
+
   };
 
   window.addEventListener('touchstart', onTouchStart);

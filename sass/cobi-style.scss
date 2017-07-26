@@ -35,6 +35,13 @@ body {
   line-height: $line-height-default;
   color: $tarmac-color;
   background-color: #F7F7F7;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 // Universal link styling
@@ -151,4 +158,20 @@ a {
     margin: 0 auto;
     padding-top: 35px;
   }
+}
+
+
+// COBI infinity loader animation
+@keyframes dash {
+  to {
+    stroke-dashoffset: 3000;
+  }
+}
+
+#infinity_loader {
+  display: none;
+    margin: 0px auto;
+  padding-top: 5px;
+  stroke-dasharray: 60,200;
+  animation: dash 10s linear infinite;
 }
