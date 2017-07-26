@@ -1,14 +1,13 @@
 
 <p align="center">
-  <a href="www.cobi.bike">
-    <img src="" width=72 height=72>
+  <a href="www.cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/resources/images/devkit-logo.svg">
   </a>
 
   <h3 align="center">COBI UI Components</h3>
 
   <p align="center">
     Sleek, intuitive, and scalable UI Components for faster and easier COBI webApp development.
-    <br>
+    <br> <br>
     <a href="www.cobi.bike"><strong>Explore COBI DevKit website &raquo;</strong></a>
     <br>
     <br>
@@ -19,7 +18,7 @@
 
 ## Description
 
-These UI Components will let you to create Sleek, Intuitive and Scalable WebApp's. Buil complex settings page, description view's for your WebApp's. Just grab one example and use it in your project! Read the instructions below how to start and create your own WebApp and run it on COBI!
+These UI Components will let you to create Sleek, Intuitive and Scalable WebApp's. Build complex settings page, description view's for your WebApp's. Just grab one example and use it in your project! Read the instructions below how to start and create your own WebApp and run it on COBI!
 
 ### Getting Started
 
@@ -27,11 +26,11 @@ All you have to do is just include cobi-style.css and cobi-style.js files to you
 
 #### CSS:
 ```
-<link href="css/cobi-style.css" rel="stylesheet">
+<link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
 ```
 #### JS:
 ```
- <script src="js/cobi-style.js"></script>
+ <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
 ```
 
 
