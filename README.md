@@ -26,11 +26,11 @@ All you have to do is just include cobi-style.css and cobi-style.js files to you
 
 #### CSS:
 ```
-<link href="css/cobi-style.css" rel="stylesheet">
+<link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
 ```
 #### JS:
 ```
- <script src="js/cobi-style.js"></script>
+ <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
 ```
 
 
