@@ -25,28 +25,37 @@ These UI Components will let you to create Sleek, Intuitive and Scalable WebApp'
 
 All you have to do is just include cobi-style.css and cobi-style.js files to your project!
 
-CSS:
+#### CSS:
 ```
 <link href="css/cobi-style.css" rel="stylesheet">
 ```
-JV:
+#### JS:
 ```
-<link href="css/cobi-style.css" rel="stylesheet">
+ <script src="js/cobi-style.js"></script>
 ```
 
 
 ## UI Components
 
-A step by step series of examples that tell you have to get a development env running
+Series of examples that tell you how you can use COBI UI Components:
 
 
 ### Headlines
 
-Say what the step will be
+Examples of Headlines with COBI look:
 
 ```
-Give the example
+<h1>COBI Style framework!</h1>
+<h2>COBI Style framework!</h2>
+<h3>COBI Style framework!</h3>
+<h4>COBI Style framework!</h4>
+<h5>COBI Style framework!</h5>
+<h6>COBI Style framework!</h6>
 ```
+
+When you want to just center headline in your view just add ```class="text-center"```
+
+
 ### Buttons
 
 Say what the step will be
