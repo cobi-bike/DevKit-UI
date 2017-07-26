@@ -1,7 +1,6 @@
 
 <p align="center">
-  <a href="www.cobi.bike">
-    <img src="" width=72 height=72>
+  <a href="www.cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/resources/images/devkit-logo.svg">
   </a>
 
   <h3 align="center">COBI UI Components</h3>
