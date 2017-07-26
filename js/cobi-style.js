@@ -30,7 +30,6 @@
     if (modal) {
       if (modal && modal.classList.contains('modal')) {
         modal.classList.toggle('active');
-        console.log();
       }
       event.preventDefault(); // prevents rewriting url (apps can still use hash values in url)
     }

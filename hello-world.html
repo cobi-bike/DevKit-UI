@@ -31,7 +31,7 @@
     </div>
 
     <div class="input-transparent">
-      <input id="url" type="url" placeholder="http://example.com" required pattern="http?://.+">
+      <input id="url" type="url" placeholder="http://example.com">
     </div>
 
       <button id="url-button" class="btn" target="_blank">Open WebApp</button>
@@ -48,7 +48,7 @@
       document.getElementById("url-button").disabled = false
       document.getElementById("url-button").onclick = function() {
           window.location = url.value
-      }
+          document.getElementById("url-button").style.display = "none"    }
     } else {
       document.getElementById("url-button").disabled = true
     }

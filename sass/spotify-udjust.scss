@@ -39,6 +39,21 @@
     }
   }
 
+  .content-padded {
+    margin-bottom: 25px;
+    margin-top: 0px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .btn {
+    &.blue{
+      margin-top: 20px;
+    }
+  }
+
 
 
 }

@@ -34,6 +34,32 @@
       margin: 0 auto;
       width: 80%;
       height: auto;
+
     }
+  }
+  .indicators-group {
+    display: block;
+    margin: 0 auto;
+    .indicators{
+
+    li{
+      float: left;
+      margin-left: 10px;
+      list-style: none;
+    }
+
+    li::before{
+      display: inline-block;
+      content: "";
+      width: 6px;
+      height: 6px;
+      background-color: $surf-blue-color;
+      border-radius: 10px;
+
+      &.active{
+        background-color: pink;
+      }
+    }
+  }
   }
 }
