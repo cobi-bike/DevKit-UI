@@ -38,17 +38,22 @@
     }
   }
   .indicators-group {
+
     display: block;
     margin: 0 auto;
+
     .indicators{
 
-    li{
+    .dot-style{
       float: left;
       margin-left: 10px;
       list-style: none;
+      &.active::before{
+        background-color: pink;
+      }
     }
 
-    li::before{
+    .dot-style::before{
       display: inline-block;
       content: "";
       width: 6px;
@@ -56,9 +61,6 @@
       background-color: $surf-blue-color;
       border-radius: 10px;
 
-      &.active{
-        background-color: pink;
-      }
     }
   }
   }
