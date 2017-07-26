@@ -7,7 +7,7 @@
 
   <p align="center">
     Sleek, intuitive, and scalable UI Components for faster and easier COBI webApp development.
-    <br>
+    <br> <br>
     <a href="www.cobi.bike"><strong>Explore COBI DevKit website &raquo;</strong></a>
     <br>
     <br>
@@ -18,7 +18,7 @@
 
 ## Description
 
-These UI Components will let you to create Sleek, Intuitive and Scalable WebApp's. Buil complex settings page, description view's for your WebApp's. Just grab one example and use it in your project! Read the instructions below how to start and create your own WebApp and run it on COBI!
+These UI Components will let you to create Sleek, Intuitive and Scalable WebApp's. Build complex settings page, description view's for your WebApp's. Just grab one example and use it in your project! Read the instructions below how to start and create your own WebApp and run it on COBI!
 
 ### Getting Started
 
