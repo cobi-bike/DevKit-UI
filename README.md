@@ -39,11 +39,11 @@ cobi-style/
 ## Getting Started
 
 #### General rules:
-1. Make sure all your bars are the first things in your <body>.
+1. Make sure all your bars are the first things in your `<body>`.
 2. Entire content of your page should be wraped with `.content` class.
-3. Wrap elements with .content-padded class to give the content space around the screen.
+3. Wrap elements with `.content-padded` class to give the content space around the screen.
 
-All you have to do is just include cobi-style.css and cobi-style.js files to your project!
+All you have to do is just include `cobi-style.css` and `cobi-style.js` files to your project!
 
 #### CSS:
 ``` html
