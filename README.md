@@ -59,7 +59,7 @@ Wrap elements with .content-padded class to give the content space around the sc
 </div>
 ```
 
-When you want to center headline or paragraphs in your view just add ```class="text-center"```
+When you want to center headline or paragraphs in your view just add `class="text-center"`
 
 
 ### Buttons
