@@ -171,12 +171,24 @@ Button with COBI tarmac color
 
 Title bars are full width and docked to the top of the viewport. Make sure all your bars are the first things in your `<body>`
 
-
+Bar with blue background (default)
 ``` html
 <header class="bar bar-nav">
   <a class="icon icon-left-nav pull-left"></a>
   <a class="icon icon-compose pull-right"></a>
   <h1 class="title">Title</h1>
+</header>
+```
+
+Bar with white background
+``` html
+<header class="bar light">
+</header>
+```
+
+Bar with gray background
+``` html
+<header class="bar gray">
 </header>
 ```
 
