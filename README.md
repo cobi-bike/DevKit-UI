@@ -35,7 +35,7 @@ All you have to do is just include `cobi-style.css` and `cobi-style.js` files to
 ```
 #### JS:
 ``` html
- <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
+ <script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
 ```
 
 
@@ -64,7 +64,7 @@ Pls always use this basic template to create all of your views.
   <link href="css/adjust.css" rel="stylesheet">
 
   <!-- Include the compiled COBI JS -->
-  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
+  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
 
 </head>
 
@@ -83,6 +83,31 @@ Pls always use this basic template to create all of your views.
 ## UI Components
 
 Series of examples that tell you how you can use COBI UI Components:
+
+### Content
+
+Three styles of content are available:
+
+White:
+``` html
+<div class="content">
+  <!-- content of your page go here -->
+</div>
+```
+
+Gray:
+``` html
+<div class="content gray">
+  <!-- content of your page go here -->
+</div>
+```
+
+COBI Surf Blue:
+``` html
+<div class="content blue">
+  <!-- content of your page go here -->
+</div>
+```
 
 
 ### Typography
