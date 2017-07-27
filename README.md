@@ -462,3 +462,47 @@ Use this template to describe your app and build your settings page.
 <h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
 
 [See demo](https://cdn.cobi.bike/devkit/examples/modal.html)
+
+### 3. Settings template with nested view
+
+Use this template to describe your app and build your settings page.
+``` html
+<div class="content gray">
+  <!-- content of your page go here -->
+    <p class="content-padded text-center">This is the example page with settings view. Feel free to use it in your project.</p>
+    <ul class="table-view">
+      <li class="table-view-cell"><a class="navigate-right" href="push.html" data-transition="slide-in">Load new page with push</a></li>
+      <li class="table-view-cell">COBI toggle
+        <label class="toggle">
+          <input type="checkbox">
+          <div class="slider round"></div>
+        </label>
+      </li>
+      <li class="table-view-cell">COBI toggle active
+        <label class="toggle">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+        </label>
+      </li>
+      <li class="table-view-divider">Profile</li>
+    </ul>
+    <form class="input-group">
+      <div class="input-row">
+        <label>Birth date</label>
+        <input type="date" placeholder="21.02.2017">
+      </div>
+      <div class="input-row">
+        <label>Email</label>
+        <input type="email" placeholder="email@cobi.bike">
+      </div>
+      <div class="input-row">
+        <label>Username</label>
+        <input type="text" placeholder="user">
+      </div>
+    </form>
+
+</div>
+```
+<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
+
+[See demo](https://cdn.cobi.bike/devkit/examples/settings-view.html)
