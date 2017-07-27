@@ -25,13 +25,8 @@ These UI Components will let you to create Sleek, Intuitive and Scalable WebApp'
 - [Quick start](#quick-start)
 - [General rules](#general-rules)
 - [Html basic template](#html-basic-template)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Community](#community)
-- [Versioning](#versioning)
-- [Creators](#creators)
-- [Copyright and license](#copyright-and-license)
+- [UI Components](#ui-components)
+- [Templates and examples](#templates-and-examples)
 
 
 ## Quick start
