@@ -434,7 +434,7 @@ Use this template to describe your app and build your settings page.
   </div>
 
 ```
-[See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html) <h4>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h4>
+[See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html) <h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
 
 ### 2. Modal template
 
