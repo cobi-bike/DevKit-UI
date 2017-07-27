@@ -26,7 +26,7 @@ These UI Components will let you to create Sleek, Intuitive and Scalable WebApp'
 - [General rules](#general-rules)
 - [Html basic template](#html-basic-template)
 - [UI Components](#ui-components)
-- [Templates and examples](#templates-and-examples)
+- [Demo examples](#demo-examples)
 
 
 ## Quick start
@@ -356,7 +356,7 @@ When you want to use icon just grab one from here:
 ```
 
 
-## Templates and examples
+## Demo examples
 
 ### 1. App settings/description template
 
