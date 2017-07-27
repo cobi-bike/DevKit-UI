@@ -66,11 +66,27 @@ When you want to center headline or paragraphs in your view just add `class="tex
 
 Say what the step will be
 
+Regular button style
 ``` html
 <button class="btn">Button text</button>
+```
+Disabled state
+``` html
 <button class="btn disabled">Button text</button>
+```
+Button with icon
+``` html
 <button class="btn">Button text<span class="icon icon-right-nav"></span></button>
 ```
+Button with COBI surf blue color
+``` html
+<button class="btn blue">Button text</button>
+```
+Button with COBI tarmac color
+``` html
+<button class="btn tarmac">Button text</button>
+```
+
 
 ### Forms
 
@@ -140,8 +156,3 @@ Say what the step will be
 ``` html
 <label class="toggle"><input type="checkbox"><div class="slider round"></div></label>
 ```
-
-
-
-
-
