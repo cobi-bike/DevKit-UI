@@ -464,4 +464,4 @@ Use this template to describe your app and build your settings page.
 </html>
 
 ```
-[alink](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
+[See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
