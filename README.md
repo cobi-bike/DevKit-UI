@@ -367,7 +367,7 @@ Use this template to describe your app and build your settings page.
 
 <head>
   <meta charset="utf-8">
-  <title>COBI template page</title>
+  <title>COBI settings/description template</title>
 
   <!-- Sets initial viewport load and disables zooming  -->
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -464,3 +464,4 @@ Use this template to describe your app and build your settings page.
 </html>
 
 ```
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
