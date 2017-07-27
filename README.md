@@ -72,7 +72,7 @@ Say what the step will be
 <button class="btn">Button text<span class="icon icon-right-nav"></span></button>
 ```
 
-### Inputs
+### Forms
 
 Say what the step will be
 
@@ -93,12 +93,37 @@ Say what the step will be
 </form>
 ```
 
-### Forms
+### Inputs
 
 Say what the step will be
 
 ```
-Give the example
+<ul class="table-view">
+  <li class="table-view-cell">
+    <a class="navigate-right" href="settings.html" data-transition="slide-in">Load new page with push</a>
+  </li>
+  <li class="table-view-cell table-view-cell">
+    <a class="navigate-right">Item 2</a>
+  </li>
+  <li class="table-view-cell">COBI toggle<label class="toggle"><input type="checkbox"><div class="slider round"></div></label></li>
+  <li class="table-view-cell">
+    <a>Item 1</a>
+  </li>
+  <li class="table-view-cell table-view-cell">
+    <a>Item 2</a>
+  </li>
+  <li class="table-view-cell">COBI toggle
+    <label class="toggle">
+    <input type="checkbox" checked>
+      <div class="slider round"></div>
+    </label>
+  </li>
+  <li class="table-view-divider">Divider</li>
+  <li class="table-view-cell">
+    <a class="navigate-right">Item 1</a>
+  </li>
+  <li class="table-view-divider">Divider</li>
+</ul>
 ```
 ### Modals
 
@@ -108,12 +133,12 @@ Say what the step will be
 Give the example
 ```
 
-### Table Views
+### Toggle
 
 Say what the step will be
 
 ```
-Give the example
+<label class="toggle"><input type="checkbox"><div class="slider round"></div></label>
 ```
 
 
