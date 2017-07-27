@@ -361,6 +361,11 @@ When you want to use icon just grab one from here:
 ### 1. App settings/description template
 
 Use this template to describe your app and build your settings page.
+
+<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
+
+[See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
+
 ``` html
 <!-- Settings view header -->
   <header class="bar gray">
@@ -434,14 +439,16 @@ Use this template to describe your app and build your settings page.
   </div>
 
 ```
-<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
-
-[See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
 
 
 ### 2. Modal template
 
 Use this template to describe your app and build your settings page.
+
+<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
+
+[See demo](https://cdn.cobi.bike/devkit/examples/modal.html)
+
 ``` html
 <div class="content-padded">
   <a href="#myModalexample" class="btn blue">Open modal</a>
@@ -459,13 +466,15 @@ Use this template to describe your app and build your settings page.
   </div>
 </div>
 ```
-<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
-
-[See demo](https://cdn.cobi.bike/devkit/examples/modal.html)
 
 ### 3. Settings template with nested view
 
 Use this template to build content of your settings page.
+
+<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
+
+[See demo](https://cdn.cobi.bike/devkit/examples/settings-view.html)
+
 ``` html
 <div class="content gray">
   <!-- content of your page go here -->
@@ -503,6 +512,3 @@ Use this template to build content of your settings page.
 
 </div>
 ```
-<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
-
-[See demo](https://cdn.cobi.bike/devkit/examples/settings-view.html)
