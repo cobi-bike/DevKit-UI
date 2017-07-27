@@ -178,7 +178,7 @@ Form with input group and labels. Use it to build your settings page.
 ``` html
 <form class="input-group">
   <div class="input-row">
-    <label>Full name</label>
+    <label>Date</label>
        <input type="date" placeholder="21.02.2017">
   </div>
   <div class="input-row">
@@ -186,8 +186,8 @@ Form with input group and labels. Use it to build your settings page.
     <input type="email" placeholder="cobistyle@gmail.com">
   </div>
   <div class="input-row">
-    <label>Username</label>
-    <input type="text" placeholder="cobistyle">
+    <label>Example</label>
+    <input type="text" placeholder="">
   </div>
 </form>
 ```
@@ -205,7 +205,7 @@ Table views can be used for build settings page.
 ``` html
 <ul class="table-view">
   <li class="table-view-cell">
-    <a class="navigate-right" href="settings.html" data-transition="slide-in">Load new page with push</a>
+    <a class="navigate-right" href="source.html" data-transition="slide-in">Load new page with push</a>
   </li>
   <li class="table-view-cell table-view-cell">
     <a class="navigate-right">Item 2</a>
@@ -230,6 +230,16 @@ Table views can be used for build settings page.
   <li class="table-view-divider">Divider</li>
 </ul>
 ```
+
+When you want to open sub view of your settings page just use this and as href value use separate html with your sub view.
+``` html
+<ul class="table-view">
+  <li class="table-view-cell">
+    <a class="navigate-right" href="source.html" data-transition="slide-in">Load new page with push</a>
+  </li>
+</ul>
+```
+
 ### Modals
 
 Modals are designed to be fire only from links, use `<a href="#myModalexample" class="btn blue">Open modal</a>` to fire modal div with `id="myModalexample"`
