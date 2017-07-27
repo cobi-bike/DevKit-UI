@@ -334,7 +334,9 @@ When you want to use icon just grab one from here:
 ```
 
 
-## Your app settings/description view template
+## Templates and examples
+
+### App settings/description template
 
 Use this template to describe your app and build your settings page.
 ``` html
