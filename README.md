@@ -72,20 +72,25 @@ Say what the step will be
 <button class="btn">Button text<span class="icon icon-right-nav"></span></button>
 ```
 
-### Text style
-
-Say what the step will be
-
-```
-Give the example
-```
-
 ### Inputs
 
 Say what the step will be
 
 ```
-Give the example
+<form class="input-group">
+  <div class="input-row">
+    <label>Full name</label>
+       <input type="date" placeholder="21.02.2017">
+  </div>
+  <div class="input-row">
+    <label>Example</label>
+    <input type="email" placeholder="cobistyle@gmail.com">
+  </div>
+  <div class="input-row">
+    <label>Username</label>
+    <input type="text" placeholder="cobistyle">
+  </div>
+</form>
 ```
 
 ### Forms
