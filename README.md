@@ -6,7 +6,7 @@
   <h3 align="center">COBI UI Components</h3>
 
   <p align="center">
-    Sleek, intuitive, and scalable UI Components for faster and easier COBI webApp development.
+    Sleek, intuitive, and scalable UI Components for faster and easier COBI webApp development!:rocket:
     <br>
     <a href="http://cobi.bike"><strong>Explore COBI DevKit website &raquo;</strong></a>
     <br>
