@@ -38,12 +38,7 @@
 
 
 /* ========================================================================
- * Ratchet: push.js v2.0.2
- * http://goratchet.com/components#push
- * ========================================================================
- * inspired by @defunkt's jquery.pjax.js
- * Copyright 2014 Connor Sears
- * Licensed under MIT (https://github.com/twbs/ratchet/blob/master/LICENSE)
+*  Push
  * ======================================================================== */
 
 /* global _gaq: true */
@@ -523,12 +518,7 @@
 
 
 /* ========================================================================
- * Ratchet: sliders.js v2.0.2
- * http://goratchet.com/components#sliders
- * ========================================================================
-   Adapted from Brad Birdsall's swipe
- * Copyright 2014 Connor Sears
- * Licensed under MIT (https://github.com/twbs/ratchet/blob/master/LICENSE)
+ * Slider
  * ======================================================================== */
 
 !(function () {
