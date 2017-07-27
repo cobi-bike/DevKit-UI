@@ -20,9 +20,23 @@
 
 These UI Components will let you to create Sleek, Intuitive and Scalable WebApp's. Build complex settings page, description view's for your WebApp's. Just grab one example and use it in your project! Read the instructions below how to start and create your own WebApp and run it on COBI!
 
-## Getting Started
+## Table of contents
 
-#### General rules:
+- [Quick start](#quick-start)
+- [General rules](#general-rules)
+- [Html basic template](#Html-basic-template)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Community](#community)
+- [Versioning](#versioning)
+- [Creators](#creators)
+- [Copyright and license](#copyright-and-license)
+
+
+## Quick start
+
+## General rules:
 1. Make sure all your bars are the first things in your `<body>`.
 2. Entire content of your page should be wraped with `.content` class.
 3. Wrap elements with `.content-padded` class to give the content space around the screen.
@@ -39,7 +53,7 @@ All you have to do is just include `cobi-style.css` and `cobi-style.js` files to
 ```
 
 
-### Html basic template
+## Html basic template
 
 Pls always use this basic template to create all of your views.
 ``` html
