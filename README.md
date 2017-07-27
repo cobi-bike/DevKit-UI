@@ -464,4 +464,4 @@ Use this template to describe your app and build your settings page.
 </html>
 
 ```
-[a link](https://github.com/user/repo/blob/branch/other_file.md)
+[alink](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
