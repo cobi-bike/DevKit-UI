@@ -465,7 +465,7 @@ Use this template to describe your app and build your settings page.
 
 ### 3. Settings template with nested view
 
-Use this template to describe your app and build your settings page.
+Use this template to build content of your settings page.
 ``` html
 <div class="content gray">
   <!-- content of your page go here -->
