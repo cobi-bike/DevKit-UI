@@ -20,7 +20,28 @@
 
 These UI Components will let you to create Sleek, Intuitive and Scalable WebApp's. Build complex settings page, description view's for your WebApp's. Just grab one example and use it in your project! Read the instructions below how to start and create your own WebApp and run it on COBI!
 
-### Getting Started
+## What's included
+
+
+```
+cobi-style/
+├── css/
+│   ├── cobi-style.css
+│   └── adjust.css
+├──  js/
+│    ├── cobi-style.js
+│    └──
+├── sass/
+│   └── cobi-style.scss
+│
+```
+
+## Getting Started
+
+#### General rules:
+1. Make sure all your bars are the first things in your <body>.
+2. Entire content of your page should be wraped with `.content` class.
+3. Wrap elements with .content-padded class to give the content space around the screen.
 
 All you have to do is just include cobi-style.css and cobi-style.js files to your project!
 
@@ -33,6 +54,48 @@ All you have to do is just include cobi-style.css and cobi-style.js files to you
  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
 ```
 
+## UI Components
+
+#### Html basic template
+
+Pls always use this basic template to create all of your views.
+``` html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>COBI template page</title>
+
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Include the compiled COBI CSS -->
+  <link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
+
+  <!-- Include the your styles when you want to adjust styles to your needs -->
+  <link href="css/adjust.css" rel="stylesheet">
+
+  <!-- Include the compiled COBI JS -->
+  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
+
+</head>
+
+<body>
+
+    <div class="content">
+      <!-- content of your page go here -->
+    </div>
+
+</body>
+
+</html>
+
+```
 
 ## UI Components
 
@@ -143,7 +206,7 @@ Say what the step will be
 ```
 ### Modals
 
-Modals are designed to be fire only from links, use `<a href="#myModalexample" class="btn blue">Open modal</a>` to fire div with `id="myModalexample"`
+Modals are designed to be fire only from links, use `<a href="#myModalexample" class="btn blue">Open modal</a>` to fire modal div with `id="myModalexample"`
 
 ``` html
 <!-- Content of your page -->
@@ -166,7 +229,7 @@ Modals are designed to be fire only from links, use `<a href="#myModalexample" c
 
 ### Toggle
 
-Say what the step will be
+Toggles can be used by tapping the control.
 
 ``` html
 <label class="toggle"><input type="checkbox"><div class="slider round"></div></label>
