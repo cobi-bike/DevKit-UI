@@ -1,7 +1,11 @@
 //
 // Buttons
 // --------------------------------------------------
-
+a{
+  &.btn{
+    display: inline-block;
+  }
+}
 .btn {
   position: relative;
   display: block;
@@ -37,6 +41,11 @@
   &.blue{
     background-color: $surf-blue-color;
     box-shadow: 0 2px 0 0 $surf-dark-color;
+  }
+
+  &.tarmac{
+    background-color: $tarmac-color;
+    color: #fff;
   }
 }
 
