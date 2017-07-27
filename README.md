@@ -44,7 +44,7 @@ All you have to do is just include `cobi-style.css` and `cobi-style.js` files to
 ```
 #### JS:
 ``` html
- <script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
+<script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
 ```
 
 
@@ -122,6 +122,7 @@ COBI Surf Blue:
 ### Typography
 
 Use headings and paragraphs to title and describe sections of your app.
+![alt text](https://raw.githubusercontent.com/cobi-bike/COBI-Style/master/resources/images/app-buddy-radar.jpg?token=AbHnlJiSc0y11BJWndwUbz5PhL3-xrW4ks5Zgy0zwA%3D%3D)
 ``` html
 <h1>COBI Style framework!</h1>
 <h2>COBI Style framework!</h2>
