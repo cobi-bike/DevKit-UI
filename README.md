@@ -97,7 +97,7 @@ Say what the step will be
 
 Say what the step will be
 
-```
+``` html
 <ul class="table-view">
   <li class="table-view-cell">
     <a class="navigate-right" href="settings.html" data-transition="slide-in">Load new page with push</a>
