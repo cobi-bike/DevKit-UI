@@ -15,11 +15,9 @@
   <!-- Include the compiled COBI CSS -->
   <link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
   <!-- Include the your compiled styles when you want to adjust styles to your needs -->
-  <link href="css/spotify-udjust.css" rel="stylesheet">
-
-
+  <link href="https://cdn.cobi.bike/devkit/css/spotify-udjust.css" rel="stylesheet">
   <!-- Include the compiled COBI JS -->
-  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
+  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
 
 </head>
 
@@ -27,23 +25,22 @@
 
   <!-- Settings view header -->
   <header class="bar gray">
-    <a class="icon icon-info pull-right" href="#myModalexample" data-transition="slide-out"></a>
+    <a class="icon icon-info pull-right" href="#appDescription" data-transition="slide-out"></a>
 
 
     <!-- Info view start -->
-    <div id="myModalexample" class="modal">
+    <div id="appDescription" class="modal">
 
       <header class="bar light">
-        <a class="icon icon-close pull-right" href="#myModalexample" data-transition="slide-out"></a>
+        <a class="icon icon-close pull-right" href="#appDescription" data-transition="slide-out"></a>
       </header>
 
       <div class="content">
-        <img class="content-bg" src="resources/images/hex-shape-bg.svg" alt="">
+        <img class="content-bg" src="https://cdn.cobi.bike/devkit/resources/images/hex-shape-bg.svg" alt="">
 
         <div class="app-info-header">
-          <!-- <img class="app-icon" src="resources/images/app-buddy-radar.jpg"> -->
-          <!--  App icon shuld be squared with size 230px x 230px -->
-          <img class="app-icon" src="resources/images/app_icon.jpg">
+          <!--  Your App icon shuld be square with size 230px x 230px -->
+          <img class="app-icon" src="https://cdn.cobi.bike/devkit/resources/images/app_icon.jpg">
         </div>
 
         <div class="content-padded">
@@ -53,13 +50,13 @@
         <div class="img-slider" id="mySlider">
           <div class="slide-group">
             <div class="slide">
-              <img src="resources/images/slide1.jpg">
+              <img src="https://cdn.cobi.bike/devkit/resources/images/slide1.jpg">
             </div>
             <div class="slide">
-              <img src="resources/images/slide2.jpg">
+              <img src="https://cdn.cobi.bike/devkit/resources/images/slide2.jpg">
             </div>
             <div class="slide">
-              <img src="resources/images/slide3.jpg">
+              <img src="https://cdn.cobi.bike/devkit/resources/images/slide3.jpg">
             </div>
           </div>
 
@@ -75,8 +72,6 @@
       </div>
     </div>
     <!-- Info view end -->
-
-
   </header>
 
   <!-- Settings view content -->
@@ -85,12 +80,9 @@
       <p class="content-padded text-center">If you want to use Spotify app, you have log in first, then you will have acces to Spotify app and other stuff.</p>
     </div>
 
-    <!-- <ul class="table-view">
-      <li class="table-view-divider">Settings</li>
-    </ul> -->
-
     <form class="input-group">
-      <!-- <div class="input-row">
+      <!-- Classic style of settings
+      <div class="input-row">
         <label>Login</label>
         <input type="email" placeholder="">
       </div>
