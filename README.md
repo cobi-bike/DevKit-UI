@@ -39,10 +39,9 @@ All you have to do is just include cobi-style.css and cobi-style.js files to you
 Series of examples that tell you how you can use COBI UI Components:
 
 
-### Headlines
+### Typography
 
-Examples of Headlines with COBI look:
-
+Use headings and paragraphs to title and describe sections of your app.
 ```
 <h1>COBI Style framework!</h1>
 <h2>COBI Style framework!</h2>
@@ -52,7 +51,15 @@ Examples of Headlines with COBI look:
 <h6>COBI Style framework!</h6>
 ```
 
-When you want to just center headline in your view just add ```class="text-center"```
+Wrap elements with .content-padded class to give the content space around the screen.
+
+```
+<div class="content-padded">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+</div>
+```
+
+When you want to just center headline or paragraphs in your view just add ```class="text-center"```
 
 
 ### Buttons
@@ -60,7 +67,9 @@ When you want to just center headline in your view just add ```class="text-cente
 Say what the step will be
 
 ```
-Give the example
+<button class="btn">Button text</button>
+<button class="btn disabled">Button text</button>
+<button class="btn">Button text<span class="icon icon-right-nav"></span></button>
 ```
 
 ### Text style
