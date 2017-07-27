@@ -362,32 +362,7 @@ When you want to use icon just grab one from here:
 
 Use this template to describe your app and build your settings page.
 ``` html
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>COBI settings/description template</title>
-
-  <!-- Sets initial viewport load and disables zooming  -->
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
-  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-  <!-- Include the compiled COBI CSS -->
-  <link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
-  <!-- Include the your compiled styles when you want to adjust styles to your needs -->
-  <link href="https://cdn.cobi.bike/devkit/css/spotify-udjust.css" rel="stylesheet">
-  <!-- Include the compiled COBI JS -->
-  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
-
-</head>
-
-<body>
-
-  <!-- Settings view header -->
+<!-- Settings view header -->
   <header class="bar gray">
     <a class="icon icon-info pull-right" href="#appDescription" data-transition="slide-out"></a>
 
@@ -457,11 +432,6 @@ Use this template to describe your app and build your settings page.
       </form>
       <button class="btn btn-block blue">Log In</button>
   </div>
-
-
-</body>
-
-</html>
 
 ```
 [See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
@@ -470,106 +440,20 @@ Use this template to describe your app and build your settings page.
 
 Use this template to describe your app and build your settings page.
 ``` html
-<!DOCTYPE html>
-<html>
+<div class="content-padded">
+  <a href="#myModalexample" class="btn blue">Open modal</a>
+</div>
 
-<head>
-  <meta charset="utf-8">
-  <title>COBI settings/description template</title>
-
-  <!-- Sets initial viewport load and disables zooming  -->
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
-  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-  <!-- Include the compiled COBI CSS -->
-  <link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
-  <!-- Include the your compiled styles when you want to adjust styles to your needs -->
-  <link href="https://cdn.cobi.bike/devkit/css/spotify-udjust.css" rel="stylesheet">
-  <!-- Include the compiled COBI JS -->
-  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
-
-</head>
-
-<body>
-
-  <!-- Settings view header -->
-  <header class="bar gray">
-    <a class="icon icon-info pull-right" href="#appDescription" data-transition="slide-out"></a>
-
-
-    <!-- Info view start -->
-    <div id="appDescription" class="modal">
-
-      <header class="bar light">
-        <a class="icon icon-close pull-right" href="#appDescription" data-transition="slide-out"></a>
-      </header>
-
-      <div class="content">
-        <img class="content-bg" src="https://cdn.cobi.bike/devkit/resources/images/hex-shape-bg.svg" alt="">
-
-        <div class="app-info-header">
-          <!--  Your App icon shuld be square with size 230px x 230px -->
-          <img class="app-icon" src="https://cdn.cobi.bike/devkit/resources/images/app_icon.jpg">
-        </div>
-
-        <div class="content-padded">
-          <h3 class="text-center">Spotify app</h3>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-        <div class="img-slider" id="mySlider">
-          <div class="slide-group">
-            <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide1.jpg">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide2.jpg">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide3.jpg">
-            </div>
-          </div>
-
-          <div class="indicators-group">
-            <ul class="indicators">
-              <li class="dot-style active"></li>
-              <li class="dot-style"></li>
-              <li class="dot-style"></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!-- Info view end -->
+<!-- Modal Content -->
+<div id="myModalexample" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#myModalexample"></a>
+    <h1 class="title">Modal</h1>
   </header>
 
-  <!-- Settings view content -->
-  <div class="content gray">
-    <div class="content-padded">
-      <p class="content-padded text-center">If you want to use Spotify app, you have log in first, then you will have acces to Spotify app and other stuff.</p>
-    </div>
-
-    <form class="input-group">
-      <form class="input-group">
-        <div id="input" class="input-icon">
-          <span class="icon icon-person"></span>
-          <input class="login-icon" type="text" placeholder="Your login">
-        </div>
-        <div class="input-icon">
-          <span class="icon icon-more"></span>
-          <input type="password" placeholder="Password">
-        </div>
-      </form>
-      <button class="btn btn-block blue">Log In</button>
+  <div class="content">
+    <p class="content-padded">The contents of my modal go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
   </div>
-
-
-</body>
-
-</html>
-
+</div>
 ```
-[See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
+[See demo](https://cdn.cobi.bike/devkit/examples/modal.html)
