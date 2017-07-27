@@ -25,11 +25,11 @@ These UI Components will let you to create Sleek, Intuitive and Scalable WebApp'
 All you have to do is just include cobi-style.css and cobi-style.js files to your project!
 
 #### CSS:
-```
+``` html
 <link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
 ```
 #### JS:
-```
+``` html
  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
 ```
 
@@ -42,7 +42,7 @@ Series of examples that tell you how you can use COBI UI Components:
 ### Typography
 
 Use headings and paragraphs to title and describe sections of your app.
-```
+``` html
 <h1>COBI Style framework!</h1>
 <h2>COBI Style framework!</h2>
 <h3>COBI Style framework!</h3>
@@ -53,7 +53,7 @@ Use headings and paragraphs to title and describe sections of your app.
 
 Wrap elements with .content-padded class to give the content space around the screen.
 
-```
+``` html
 <div class="content-padded">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 </div>
@@ -66,7 +66,7 @@ When you want to center headline or paragraphs in your view just add ```class="t
 
 Say what the step will be
 
-```
+``` html
 <button class="btn">Button text</button>
 <button class="btn disabled">Button text</button>
 <button class="btn">Button text<span class="icon icon-right-nav"></span></button>
@@ -76,7 +76,7 @@ Say what the step will be
 
 Say what the step will be
 
-```
+``` html
 <form class="input-group">
   <div class="input-row">
     <label>Full name</label>
@@ -129,7 +129,7 @@ Say what the step will be
 
 Say what the step will be
 
-```
+``` html
 Give the example
 ```
 
@@ -137,7 +137,7 @@ Give the example
 
 Say what the step will be
 
-```
+``` html
 <label class="toggle"><input type="checkbox"><div class="slider round"></div></label>
 ```
 
