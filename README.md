@@ -74,7 +74,7 @@ Disabled state
 ``` html
 <button class="btn disabled">Button text</button>
 ```
-Button with icon
+Button with icon. You can find full list of icons <a>here</a>
 ``` html
 <button class="btn">Button text<span class="icon icon-right-nav"></span></button>
 ```
@@ -143,10 +143,25 @@ Say what the step will be
 ```
 ### Modals
 
-Say what the step will be
+Modals are designed to be fire only from links, use `<a href="#myModalexample" class="btn blue">Open modal</a>` to fire div with `id="myModalexample"`
 
 ``` html
-Give the example
+<!-- Content of your page -->
+<div class="content-padded">
+  <a href="#myModalexample" class="btn blue">Open modal</a>
+</div>
+
+<!-- Modal Content -->
+<div id="myModalexample" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#myModalexample"></a>
+    <h1 class="title">Modal</h1>
+  </header>
+
+  <div class="content">
+    <p class="content-padded">The contents of my modal go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+  </div>
+</div>
 ```
 
 ### Toggle
