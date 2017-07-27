@@ -7,7 +7,7 @@
 
   <p align="center">
     Sleek, intuitive, and scalable UI Components for faster and easier COBI webApp development.
-    <br> <br>
+    <br>
     <a href="http://cobi.bike"><strong>Explore COBI DevKit website &raquo;</strong></a>
     <br>
     <br>
