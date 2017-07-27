@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="www.cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/resources/images/devkit-logo.svg">
+  <a href="https://cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/resources/images/devkit-logo.svg">
   </a>
 
   <h3 align="center">COBI UI Components</h3>
@@ -54,9 +54,8 @@ All you have to do is just include `cobi-style.css` and `cobi-style.js` files to
  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
 ```
 
-## UI Components
 
-#### Html basic template
+### Html basic template
 
 Pls always use this basic template to create all of your views.
 ``` html
@@ -127,7 +126,7 @@ When you want to center headline or paragraphs in your view just add `class="tex
 
 ### Buttons
 
-Say what the step will be
+Buttons come in many flavors
 
 Regular button style
 ``` html
@@ -150,10 +149,22 @@ Button with COBI tarmac color
 <button class="btn tarmac">Button text</button>
 ```
 
+### Bars
+
+Title bars are full width and docked to the top of the viewport. Make sure all your bars are the first things in your `<body>`
+
+
+``` html
+<header class="bar bar-nav">
+  <a class="icon icon-left-nav pull-left"></a>
+  <a class="icon icon-compose pull-right"></a>
+  <h1 class="title">Title</h1>
+</header>
+```
 
 ### Forms
 
-Say what the step will be
+Form with input group and labels. Use it to build your settings page.
 
 ``` html
 <form class="input-group">
@@ -171,10 +182,16 @@ Say what the step will be
   </div>
 </form>
 ```
+Centered input with transparent background color.
+``` html
+<div class="input-transparent">
+  <input type="url" placeholder="http://example.com">
+</div>
+```
 
-### Inputs
+### Table-views
 
-Say what the step will be
+Table views can be used for build settings page.
 
 ``` html
 <ul class="table-view">
