@@ -20,22 +20,6 @@
 
 These UI Components will let you to create Sleek, Intuitive and Scalable WebApp's. Build complex settings page, description view's for your WebApp's. Just grab one example and use it in your project! Read the instructions below how to start and create your own WebApp and run it on COBI!
 
-## What's included
-
-
-```
-cobi-style/
-├── css/
-│   ├── cobi-style.css
-│   └── adjust.css
-├──  js/
-│    ├── cobi-style.js
-│    └──
-├── sass/
-│   └── cobi-style.scss
-│
-```
-
 ## Getting Started
 
 #### General rules:
