@@ -122,8 +122,8 @@ COBI Surf Blue:
 ### Typography
 
 Use headings and paragraphs to title and describe sections of your app.
-![alt text](https://raw.githubusercontent.com/cobi-bike/COBI-Style/master/resources/images/app-buddy-radar.jpg?token=AbHnlJiSc0y11BJWndwUbz5PhL3-xrW4ks5Zgy0zwA%3D%3D)
-``` html
+
+ ``` html
 <h1>COBI Style framework!</h1>
 <h2>COBI Style framework!</h2>
 <h3>COBI Style framework!</h3>
