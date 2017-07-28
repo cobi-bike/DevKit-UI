@@ -38,6 +38,8 @@ input[type="color"] {
   border: $border-default;
   border-radius: 3px;
   outline: none;
+  overflow: scroll;
+  color: $gray-dark-color;
 }
 
 // Rounded search input
@@ -54,19 +56,49 @@ input[type="search"]:focus {
   text-align: left;
 }
 
-// input[type="date"] {
-//   &::-webkit-calendar-picker-indicator {
-//     visibility: hidden;
-//     margin: 0;
-//     padding: 0;}
-// }
-//
-// input[type="date"]:focus {
-//   &::-webkit-calendar-picker-indicator {
-//
-//     margin: 0;
-//     padding: 0;}
-// }
+input[type="date"]:focus {
+    margin-right: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+}
+
+input[type=date] {
+  display:block;
+  -webkit-appearance:button;
+  -moz-appearance:button;
+  appearance:button;
+}
+
+@media only screen and (orientation: portrait) {
+  input[type="date"]:before {
+    content: 'dd.mm.yyyy';
+    margin-top: 5px;
+    float: right;
+  }
+  input[type="date"]:focus:before {
+    content: '';
+  }
+  input[type="date"]:valid:before {
+    content: '';
+  }
+
+  input[type="date"]:focus{
+    content: '';
+    overflow: scroll;
+    margin-top: 5px;
+    float: right;
+  }
+
+  input[type="date"]:valid{
+    content: '';
+    overflow: scroll;
+    margin: 10px 0;
+    padding: 0;
+    float: right;
+  }
+}
+
 
 
 // Allow text area's height to grow larger than a normal input
@@ -135,6 +167,7 @@ select {
   padding-left: 0;
   margin-bottom: 0;
   border: 0;
+  overflow: scroll;
 }
 
 // Input groups with transparent background

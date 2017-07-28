@@ -509,6 +509,5 @@ Use this template to build content of your settings page.
         <input type="text" placeholder="user">
       </div>
     </form>
-
 </div>
 ```
