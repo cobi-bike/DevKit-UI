@@ -26,7 +26,15 @@ These UI Components will let you to create Sleek, Intuitive and Scalable WebApp'
 - [General rules](#general-rules)
 - [Html basic template](#html-basic-template)
 - [UI Components](#ui-components)
-- [Demo examples](#demo-examples)
+- [Content](#content)
+- [Typography](#typography)
+- [Buttons](#buttons)
+- [Bars](#bars)
+- [Forms](#forms)
+- [Table-views](#table-views)
+- [Modals](#modals)
+- [Toggle](#toggle)
+- [Icons](#icons)
 
 
 ## Quick start
@@ -93,7 +101,7 @@ Pls always use this basic template to create all of your views.
 
 Series of examples that tell you how you can use COBI UI Components:
 
-### Content
+## Content
 
 Three styles of content are available:
 
@@ -119,7 +127,7 @@ COBI Surf Blue:
 ```
 
 
-### Typography
+## Typography
 
 Use headings and paragraphs to title and describe sections of your app.
 
@@ -143,7 +151,7 @@ Wrap elements with .content-padded class to give the content space around the sc
 When you want to center headline or paragraphs in your view just add `class="text-center"`
 
 
-### Buttons
+## Buttons
 
 Buttons come in many flavors
 
@@ -168,7 +176,7 @@ Button with COBI tarmac color
 <button class="btn tarmac">Button text</button>
 ```
 
-### Bars
+## Bars
 
 Title bars are full width and docked to the top of the viewport. Make sure all your bars are the first things in your `<body>`
 
@@ -234,7 +242,7 @@ Centered input with transparent background color and icon on left side.
 </form>
 ```
 
-### Table-views
+## Table-views
 
 Table views can be used for build settings page.
 
@@ -275,7 +283,7 @@ When you want to open sub view of your settings page just use this and as href v
 </ul>
 ```
 
-### Modals
+## Modals
 
 Modals are designed to be fire only from links, use `<a href="#myModalexample" class="btn blue">Open modal</a>` to fire modal div with `id="myModalexample"`. Do not forget to include `cobi-style.min.js` file to your project.
 
@@ -298,7 +306,7 @@ Modals are designed to be fire only from links, use `<a href="#myModalexample" c
 </div>
 ```
 
-### Toggle
+## Toggle
 
 Toggles can be used by tapping the control.
 
@@ -306,7 +314,7 @@ Toggles can be used by tapping the control.
 <label class="toggle"><input type="checkbox"><div class="slider round"></div></label>
 ```
 
-### Icons
+## Icons
 
 When you want to use icon just grab one from here:
 
