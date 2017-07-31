@@ -35,6 +35,7 @@ These UI Components will let you to create Sleek, Intuitive and Scalable WebApp'
   - [Modals](#modals)
   - [Toggle](#toggle)
   - [Icons](#icons)
+- [Demo examples](#demo-examples)
 
 
 ## Quick start
