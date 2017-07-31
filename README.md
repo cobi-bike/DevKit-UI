@@ -255,7 +255,7 @@ Table views can be used for build settings page.
   <li class="table-view-cell table-view-cell">
     <a class="navigate-right">Item 2</a>
   </li>
-  <li class="table-view-cell">COBI toggle<label class="toggle"><input type="checkbox"><div class="slider round"></div></label></li>
+  <li class="table-view-cell">COBI toggle<label class="toggle"><input type="checkbox"><div class="slider-circle round"></div></label></li>
   <li class="table-view-cell">
     <a>Item 1</a>
   </li>
@@ -265,7 +265,7 @@ Table views can be used for build settings page.
   <li class="table-view-cell">COBI toggle
     <label class="toggle">
     <input type="checkbox" checked>
-      <div class="slider round"></div>
+      <div class="slider-circle round"></div>
     </label>
   </li>
   <li class="table-view-divider">Divider</li>
@@ -312,7 +312,7 @@ Modals are designed to be fire only from links, use `<a href="#myModalexample" c
 Toggles can be used by tapping the control.
 
 ``` html
-<label class="toggle"><input type="checkbox"><div class="slider round"></div></label>
+<label class="toggle"><input type="checkbox"><div class="slider-circle round"></div></label>
 ```
 
 ## Icons
@@ -493,13 +493,13 @@ Use this template to build content of your settings page.
       <li class="table-view-cell">COBI toggle
         <label class="toggle">
           <input type="checkbox">
-          <div class="slider round"></div>
+          <div class="slider-circle round"></div>
         </label>
       </li>
       <li class="table-view-cell">COBI toggle active
         <label class="toggle">
           <input type="checkbox" checked>
-          <div class="slider round"></div>
+          <div class="slider-circle round"></div>
         </label>
       </li>
       <li class="table-view-divider">Profile</li>

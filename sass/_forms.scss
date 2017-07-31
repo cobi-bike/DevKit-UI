@@ -153,7 +153,7 @@ select {
 // Labels get floated left with a set percentage width
 .input-row label {
   float: left;
-  width: 35%;
+  width: 50%;
   padding: 9px 15px;
   font-family: $font-family-default;
   line-height: 1.1; // Put the text on the baseline.
@@ -163,7 +163,7 @@ select {
 .input-row input {
   text-align: right;
   float: right;
-  width: 65%;
+  width: 50%;
   padding-left: 0;
   margin-bottom: 0;
   border: 0;

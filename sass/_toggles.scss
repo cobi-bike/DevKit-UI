@@ -11,7 +11,7 @@
     display: none;
 }
 
-.slider {
+.slider-circle {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -24,7 +24,7 @@
 
 }
 
-.slider:before {
+.slider-circle:before {
     position: absolute;
     content: "";
     height: 27px;
@@ -36,24 +36,24 @@
             transition: .2s;
 }
 
-input:checked + .slider {
+input:checked + .slider-circle {
     background-color: $surf-blue-color;
 }
 
-input:focus + .slider {
+input:focus + .slider-circle {
     box-shadow: 0 0 1px $surf-blue-color;
 }
 
-input:checked + .slider:before {
+input:checked + .slider-circle:before {
     -webkit-transform: translateX(22px);
         -ms-transform: translateX(22px);
             transform: translateX(22px);
 }
 
-.slider.round {
+.slider-circle.round {
     border-radius: 35px;
 }
 
-.slider.round:before {
+.slider-circle.round:before {
     border-radius: 50%;
 }
