@@ -39,7 +39,17 @@ input[type="color"] {
   border-radius: 3px;
   outline: none;
   overflow: scroll;
-  color: $gray-dark-color;
+  color: $tarmac-color;
+}
+
+input:focus::-webkit-input-placeholder
+{
+    color: transparent !important;
+}
+
+input::-webkit-input-placeholder
+{
+    color: $gray-color;
 }
 
 // Rounded search input
@@ -197,6 +207,8 @@ select {
 .input-transparent input:focus {
     outline: none;
 }
+
+
 
 .input-transparent input::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */

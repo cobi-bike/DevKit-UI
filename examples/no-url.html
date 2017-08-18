@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html manifest="appcache.manifest">
 
 <head>
   <meta charset="utf-8">
-  <title>COBI Extension</title>
+  <title>COBI Developer Module</title>
 
   <!-- Sets initial viewport load and disables zooming  -->
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -13,29 +13,47 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Include the compiled COBI CSS -->
-  <link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
+  <link href="../css/cobi-style.css" rel="stylesheet">
   <!-- Include the your compiled styles when you want to adjust styles to your needs -->
-  <link href="https://cdn.cobi.bike/devkit/css/adjust.css" rel="stylesheet">
+  <link href="/adjust.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/i18next/i18next.min.js"></script>
 
   <!-- Include the compiled COBI JS -->
   <script src="https://cdn.cobi.bike/devkit/js/cobi-style.js"></script>
+  <script src="https://cdn.cobi.bike/cobi.js/0.34.0/cobi.js"></script>
 
 </head>
 
 <body>
-  <div class="content">
+  <div id="edit" class="content blue">
+    <img class="content-bg" src="https://cdn.cobi.bike/devkit/resources/images/bottom_bg.svg" alt="">
+
+    <div class="content-padded">
+      <h3 id="cta" class="text-center">Enter URL of your module:</h3>
+    </div>
+
+    <div class="input-transparent">
+      <input id="url" type="url" placeholder="https://example.com">
+    </div>
+
+    <button id="url-button" class="btn" target="_blank">Open Module</button>
+  </div>
+
+  <div id="experience" class="content">
     <div class="app-info-header">
-      <!--  App icon shuld be squared with size 230px x 230px -->
-      <img class="app-icon" src="resources/images/app-debug.jpg">
+      <!--  App icon should be squared with size 230px x 230px -->
+      <img class="app-icon" src="https://cdn.cobi.bike/devkit/resources/images/app-debug.jpg">
     </div>
 
     <div class="content-padded">
-      <h3 class="text-center">Extension</h3>
-      <p class="text-center">Hey man! This is the place for your WebApp!
-But first you have to configure a link to it.
-Tap the “edit” button in top right corner .</p>
+      <h3 id="title" class="text-center">Module</h3>
+      <p id="instructions" class="text-center">Tap <b>Edit</b> in the top bar to enter the URL of your module.</p>
     </div>
   </div>
-</body>
 
+  <!-- Include js -->
+  <script src="/client.js"></script>
+
+</body>
 </html>

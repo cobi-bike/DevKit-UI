@@ -12,6 +12,7 @@
 @import "forms";
 @import "push";
 @import "sliders";
+@import "toast";
 //
 // Base styles
 // --------------------------------------------------
@@ -141,7 +142,8 @@ a {
   padding: 0;
   margin: 0;
   z-index: 1;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top: 25px;
 
   &::after {
     position: absolute;
