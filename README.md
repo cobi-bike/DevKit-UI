@@ -16,10 +16,6 @@
 
 <br>
 
-## Description
-
-A selection of UI components that help you creating sleek, intuitive COBI Modules more quickly. Read the instructions below on how to start and create your own COBI Module.
-
 ## Table of contents
 
 - [Quick start](#quick-start)
