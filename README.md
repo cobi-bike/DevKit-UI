@@ -3,12 +3,12 @@
   <a href="https://cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/resources/images/devkit-logo.svg">
   </a>
 
-  <h3 align="center">COBI UI Components</h3>
+  <h3 align="center">COBI Modules UI Components</h3>
 
   <p align="center">
-    Sleek, intuitive, and scalable UI Components for faster and easier COBI Module development! :rocket:
+    Sleek & intuitive UI components for faster and easier development of COBI Modules :rocket:
     <br>
-    <a href="https://cobi.bike/devkit"><strong>Explore COBI DevKit website &raquo;</strong></a>
+    <a href="https://cobi.bike/devkit"><strong>Learn more about the COBI DevKit</strong></a>
     <br>
     <br>
   </p>
@@ -18,7 +18,7 @@
 
 ## Description
 
-UI components that will let you create sleek, intuitive COBI Modules quickly. Build complex settings UI or description views – just grab an example and use it in your project. Read the instructions below on how to start and create your own COBI Module and take it on a testride with COBI.
+A selection of UI components that help you creating sleek, intuitive COBI Modules more quickly. Read the instructions below on how to start and create your own COBI Module.
 
 ## Table of contents
 
@@ -55,7 +55,6 @@ All you have to do is just include `cobi-style.css` and `cobi-style.js` files to
 ``` html
 <script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
 ```
-
 
 ## Html basic template
 
