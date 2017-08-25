@@ -8,7 +8,7 @@
   <p align="center">
     Sleek & intuitive UI components for faster and easier development of COBI Modules :rocket:
     <br>
-    <a href="https://github.com/cobi.bike/devkit"><strong>This project is part of the COBI DevKit</strong></a>
+    <a href="https://github.com/cobi-bike/devkit"><strong>This project is part of the COBI DevKit</strong></a>
     <br>
     <br>
   </p>
