@@ -36,17 +36,17 @@
 
 
 # Quick start
-The COBI DevKit-UI library is a collection of the most common web [UI components](#ui-components), maily supposed to be used for building [COBI DevKit settings and manual pages](https://github.com/cobi-bike/DevKit#-settings-for-your-module). All elements are touch enabled, animated and responsive to provide a nice native (mobile) experience. The lib also comes with a shared COBI CSS style according to the COBI CI, so it blends perfectly in with the COBI native app when used for your own [COBI DevKit](https://github.com/cobi-bike/DevKit) module. In addition more complex components are provided to build for COBI module settings or manual page. See [Demo examples](#demo-examples). 
+The COBI DevKit-UI library is a collection of the most common web [UI components](#ui-components), maily supposed to be used for building [COBI DevKit settings and manual pages](https://github.com/cobi-bike/DevKit#-settings-for-your-module). All elements are touch enabled, animated and responsive to provide a nice native (mobile) experience. The lib also comes with a shared COBI CSS style according to the COBI CI, so it blends perfectly in with the COBI native app when used for your own [COBI DevKit](https://github.com/cobi-bike/DevKit) module. In addition more complex components are provided to build for COBI module settings or manual page. See [Demo examples](#demo-examples).
 
 It's dead simple to integrate into your project. All you have to do is just include `cobi-style.css` and `cobi-style.js` files to your project!
 
 ### CSS:
 ``` html
-<link href="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/css/cobi-style.css" rel="stylesheet">
+<link href="https://cdn.cobi.bike/devkit/v1.0.0/css/cobi-style.css" rel="stylesheet">
 ```
 ### JS:
 ``` html
-<script src="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/js/cobi-style.min.js"></script>
+<script src="https://cdn.cobi.bike/devkit/v1.0.0/js/cobi-style.min.js"></script>
 ```
 
 # General rules
@@ -76,10 +76,10 @@ Always use this basic template to create all of your views.
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Include the compiled COBI CSS -->
-  <link href="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/css/cobi-style.css" rel="stylesheet">
+  <link href="https://cdn.cobi.bike/devkit/v1.0.0/css/cobi-style.css" rel="stylesheet">
 
   <!-- Include the compiled COBI JS -->
-  <script src="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/js/cobi-style.min.js"></script>
+  <script src="https://cdn.cobi.bike/devkit/v1.0.0/js/cobi-style.min.js"></script>
 
 </head>
 
@@ -469,7 +469,7 @@ Toggles are swiched by tapping the control.
 
 ## Icons
 
-Here's a list of useful icons to be used in your project if needed: 
+Here's a list of useful icons to be used in your project if needed:
 
 ``` html
 <div class="content-padded">
