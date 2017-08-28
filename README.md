@@ -21,6 +21,7 @@
 - [Quick start](#quick-start)
 - [General rules](#general-rules)
 - [Html basic template](#html-basic-template)
+- [Demo examples](#demo-examples)
 - [UI Components](#ui-components)
   - [Content](#content)
   - [Typography](#typography)
@@ -31,7 +32,7 @@
   - [Modals](#modals)
   - [Toggle](#toggle)
   - [Icons](#icons)
-- [Demo examples](#demo-examples)
+- [Credits](#credits)
 
 
 # Quick start
@@ -41,11 +42,11 @@ It's dead simple to integrate into your project. All you have to do is just incl
 
 ### CSS:
 ``` html
-<link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
+<link href="https://cdn.cobi.bike/devkit/v1.0.0/css/cobi-style.css" rel="stylesheet">
 ```
 ### JS:
 ``` html
-<script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
+<script src="hhttps://cdn.cobi.bike/devkit/v1.0.0/js/cobi-style.min.js"></script>
 ```
 
 ## General rules
@@ -94,6 +95,161 @@ Pls always use this basic template to create all of your views.
 </body>
 
 </html>
+```
+# Demo examples
+
+## 1. App settings/description template
+
+Use this template to describe your app and build your settings page.
+
+<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
+
+[See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
+
+``` html
+<!-- Settings view header -->
+  <header class="bar gray">
+    <a class="icon icon-info pull-right" href="#appDescription" data-transition="slide-out"></a>
+
+
+    <!-- Info view start -->
+    <div id="appDescription" class="modal">
+
+      <header class="bar light">
+        <a class="icon icon-close pull-right" href="#appDescription" data-transition="slide-out"></a>
+      </header>
+
+      <div class="content">
+        <img class="content-bg" src="https://cdn.cobi.bike/devkit/resources/images/hex-shape-bg.svg" alt="">
+
+        <div class="app-info-header">
+          <!--  Your App icon shuld be square with size 230px x 230px -->
+          <img class="app-icon" src="https://cdn.cobi.bike/devkit/resources/images/app_icon.jpg">
+        </div>
+
+        <div class="content-padded">
+          <h3 class="text-center">Spotify app</h3>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <div class="img-slider" id="mySlider">
+          <div class="slide-group">
+            <div class="slide">
+              <img src="https://cdn.cobi.bike/devkit/resources/images/slide1.jpg">
+            </div>
+            <div class="slide">
+              <img src="https://cdn.cobi.bike/devkit/resources/images/slide2.jpg">
+            </div>
+            <div class="slide">
+              <img src="https://cdn.cobi.bike/devkit/resources/images/slide3.jpg">
+            </div>
+          </div>
+
+          <div class="indicators-group">
+            <ul class="indicators">
+              <li class="dot-style active"></li>
+              <li class="dot-style"></li>
+              <li class="dot-style"></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Info view end -->
+  </header>
+
+  <!-- Settings view content -->
+  <div class="content gray">
+    <div class="content-padded">
+      <p class="content-padded text-center">If you want to use Spotify app, you have log in first, then you will have acces to Spotify app and other stuff.</p>
+    </div>
+
+    <form class="input-group">
+      <form class="input-group">
+        <div id="input" class="input-icon">
+          <span class="icon icon-person"></span>
+          <input class="login-icon" type="text" placeholder="Your login">
+        </div>
+        <div class="input-icon">
+          <span class="icon icon-more"></span>
+          <input type="password" placeholder="Password">
+        </div>
+      </form>
+      <button class="btn btn-block blue">Log In</button>
+  </div>
+
+```
+
+
+## 2. Modal template
+
+Use this template to describe your app and build your settings page.
+
+<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
+
+[See demo](https://cdn.cobi.bike/devkit/examples/modal.html)
+
+``` html
+<div class="content-padded">
+  <a href="#myModalexample" class="btn blue">Open modal</a>
+</div>
+
+<!-- Modal Content -->
+<div id="myModalexample" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#myModalexample"></a>
+    <h1 class="title">Modal</h1>
+  </header>
+
+  <div class="content">
+    <p class="content-padded">The contents of my modal go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+  </div>
+</div>
+```
+
+## 3. Settings template with nested view
+
+Use this template to build content of your settings page.
+
+<h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
+
+[See demo](https://cdn.cobi.bike/devkit/examples/settings-view.html)
+
+``` html
+<div class="content gray">
+  <!-- content of your page go here -->
+    <p class="content-padded text-center">This is the example page with settings view. Feel free to use it in your project.</p>
+    <ul class="table-view">
+      <li class="table-view-cell"><a class="navigate-right" href="push.html" data-transition="slide-in">Load new page with push</a></li>
+      <li class="table-view-cell">COBI toggle
+        <label class="toggle">
+          <input type="checkbox">
+          <div class="slider-circle round"></div>
+        </label>
+      </li>
+      <li class="table-view-cell">COBI toggle active
+        <label class="toggle">
+          <input type="checkbox" checked>
+          <div class="slider-circle round"></div>s
+        </label>
+      </li>
+      <li class="table-view-divider">Profile</li>
+    </ul>
+    <form class="input-group">
+      <div class="input-row">
+        <label>Birth date</label>
+        <input type="date" placeholder="21.02.2017">
+      </div>
+      <div class="input-row">
+        <label>Email</label>
+        <input type="email" placeholder="email@cobi.bike">
+      </div>
+      <div class="input-row">
+        <label>Username</label>
+        <input type="text" placeholder="user">
+      </div>
+    </form>
+</div>
 ```
 
 # UI Components
@@ -363,160 +519,12 @@ Here's a list of useful icons to be used in your project if needed:
 </div>
 ```
 
+# Credits
 
-# Demo examples
+This application uses Open Source components. You can find the source code of their open source projects along with license information below. We acknowledge and are grateful to these developers for their contributions to open source.
 
-## 1. COBI module settings/description template
+Project: Ratchet https://github.com/twbs/ratchet
 
-Use this template to describe your COBI module and build your settings page.
+Copyright connors and other contributors. All right reserved.
 
-__(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)__
-
-[See live demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
-
-``` html
-<!-- Settings view header -->
-  <header class="bar gray">
-    <a class="icon icon-info pull-right" href="#appDescription" data-transition="slide-out"></a>
-
-
-    <!-- Info view start -->
-    <div id="appDescription" class="modal">
-
-      <header class="bar light">
-        <a class="icon icon-close pull-right" href="#appDescription" data-transition="slide-out"></a>
-      </header>
-
-      <div class="content">
-        <img class="content-bg" src="https://cdn.cobi.bike/devkit/resources/images/hex-shape-bg.svg" alt="">
-
-        <div class="app-info-header">
-          <!--  Your App icon shuld be square with size 230px x 230px -->
-          <img class="app-icon" src="https://cdn.cobi.bike/devkit/resources/images/app_icon.jpg">
-        </div>
-
-        <div class="content-padded">
-          <h3 class="text-center">Spotify app</h3>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-        <div class="img-slider" id="mySlider">
-          <div class="slide-group">
-            <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide1.jpg">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide2.jpg">
-            </div>
-            <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide3.jpg">
-            </div>
-          </div>
-
-          <div class="indicators-group">
-            <ul class="indicators">
-              <li class="dot-style active"></li>
-              <li class="dot-style"></li>
-              <li class="dot-style"></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!-- Info view end -->
-  </header>
-
-  <!-- Settings view content -->
-  <div class="content gray">
-    <div class="content-padded">
-      <p class="content-padded text-center">If you want to use Spotify app, you have log in first, then you will have acces to Spotify app and other stuff.</p>
-    </div>
-
-    <form class="input-group">
-      <form class="input-group">
-        <div id="input" class="input-icon">
-          <span class="icon icon-person"></span>
-          <input class="login-icon" type="text" placeholder="Your login">
-        </div>
-        <div class="input-icon">
-          <span class="icon icon-more"></span>
-          <input type="password" placeholder="Password">
-        </div>
-      </form>
-      <button class="btn btn-block blue">Log In</button>
-  </div>
-
-```
-
-
-## 2. Modal template
-
-Use this template to describe your app and build your settings page.
-
-__(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)__
-
-[See live demo](https://cdn.cobi.bike/devkit/examples/modal.html)
-
-``` html
-<div class="content-padded">
-  <a href="#myModalexample" class="btn blue">Open modal</a>
-</div>
-
-<!-- Modal Content -->
-<div id="myModalexample" class="modal">
-  <header class="bar bar-nav">
-    <a class="icon icon-close pull-right" href="#myModalexample"></a>
-    <h1 class="title">Modal</h1>
-  </header>
-
-  <div class="content">
-    <p class="content-padded">The contents of my modal go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-  </div>
-</div>
-```
-
-## 3. Settings template with nested view
-
-Use this template to build content of your settings page.
-
-__(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)__
-
-[See live demo](https://cdn.cobi.bike/devkit/examples/settings-view.html)
-
-``` html
-<div class="content gray">
-  <!-- content of your page go here -->
-    <p class="content-padded text-center">This is the example page with settings view. Feel free to use it in your project.</p>
-    <ul class="table-view">
-      <li class="table-view-cell"><a class="navigate-right" href="push.html" data-transition="slide-in">Load new page with push</a></li>
-      <li class="table-view-cell">COBI toggle
-        <label class="toggle">
-          <input type="checkbox">
-          <div class="slider-circle round"></div>
-        </label>
-      </li>
-      <li class="table-view-cell">COBI toggle active
-        <label class="toggle">
-          <input type="checkbox" checked>
-          <div class="slider-circle round"></div>
-        </label>
-      </li>
-      <li class="table-view-divider">Profile</li>
-    </ul>
-    <form class="input-group">
-      <div class="input-row">
-        <label>Birth date</label>
-        <input type="date" placeholder="21.02.2017">
-      </div>
-      <div class="input-row">
-        <label>Email</label>
-        <input type="email" placeholder="email@cobi.bike">
-      </div>
-      <div class="input-row">
-        <label>Username</label>
-        <input type="text" placeholder="user">
-      </div>
-    </form>
-</div>
-```
-
+License (MIT) https://github.com/twbs/ratchet/blob/master/LICENSE
