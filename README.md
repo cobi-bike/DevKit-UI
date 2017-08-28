@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/resources/images/devkit-logo.svg">
+  <a href="https://cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/v1.0.0/resources/images/devkit-logo.svg">
   </a>
 
   <h3 align="center">COBI Modules UI Components</h3>
@@ -45,11 +45,11 @@ All you have to do is just include `cobi-style.css` and `cobi-style.js` files to
 
 #### CSS:
 ``` html
-<link href="https://cdn.cobi.bike/devkit/v1.0.0/css/cobi-style.css" rel="stylesheet">
+<link href="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/css/cobi-style.css" rel="stylesheet">
 ```
 #### JS:
 ``` html
-<script src="hhttps://cdn.cobi.bike/devkit/v1.0.0/js/cobi-style.min.js"></script>
+<script src="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/js/cobi-style.min.js"></script>
 ```
 
 ## Html basic template
@@ -71,13 +71,10 @@ Pls always use this basic template to create all of your views.
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Include the compiled COBI CSS -->
-  <link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
-
-  <!-- Include the your styles when you want to adjust styles to your needs -->
-  <link href="css/adjust.css" rel="stylesheet">
+  <link href="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/css/cobi-style.css" rel="stylesheet">
 
   <!-- Include the compiled COBI JS -->
-  <script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
+  <script src="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/js/cobi-style.min.js"></script>
 
 </head>
 
@@ -100,7 +97,7 @@ Use this template to describe your app and build your settings page.
 
 <h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
 
-[See demo](https://cdn.cobi.bike/devkit/examples/app-spotify.html)
+[See demo](https://cdn.cobi.bike/devkit/v1.0.0/examples/app-music.html)
 
 ``` html
 <!-- Settings view header -->
@@ -116,11 +113,11 @@ Use this template to describe your app and build your settings page.
       </header>
 
       <div class="content">
-        <img class="content-bg" src="https://cdn.cobi.bike/devkit/resources/images/hex-shape-bg.svg" alt="">
+        <img class="content-bg" src="https://cdn.cobi.bike/devkit/v1.0.0/resources/images/hex-shape-bg.svg" alt="">
 
         <div class="app-info-header">
           <!--  Your App icon shuld be square with size 230px x 230px -->
-          <img class="app-icon" src="https://cdn.cobi.bike/devkit/resources/images/app_icon.jpg">
+          <img class="app-icon" src="https://cdn.cobi.bike/devkit/v1.0.0/resources/images/app_icon.jpg">
         </div>
 
         <div class="content-padded">
@@ -130,13 +127,13 @@ Use this template to describe your app and build your settings page.
         <div class="img-slider" id="mySlider">
           <div class="slide-group">
             <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide1.jpg">
+              <img src="https://cdn.cobi.bike/devkit/v1.0.0/resources/images/slide1.jpg">
             </div>
             <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide2.jpg">
+              <img src="https://cdn.cobi.bike/devkit/v1.0.0/resources/images/slide2.jpg">
             </div>
             <div class="slide">
-              <img src="https://cdn.cobi.bike/devkit/resources/images/slide3.jpg">
+              <img src="https://cdn.cobi.bike/devkit/v1.0.0/resources/images/slide3.jpg">
             </div>
           </div>
 
@@ -183,7 +180,7 @@ Use this template to describe your app and build your settings page.
 
 <h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
 
-[See demo](https://cdn.cobi.bike/devkit/examples/modal.html)
+[See demo](https://cdn.cobi.bike/devkit/v1.0.0/examples/modal.html)
 
 ``` html
 <div class="content-padded">
@@ -209,7 +206,7 @@ Use this template to build content of your settings page.
 
 <h6>(Remember to always test your project in <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode/">Chrome Mobile Devices Simulator</a>)</h6>
 
-[See demo](https://cdn.cobi.bike/devkit/examples/settings-view.html)
+[See demo](https://cdn.cobi.bike/devkit/v1.0.0/examples/settings-view.html)
 
 ``` html
 <div class="content gray">
