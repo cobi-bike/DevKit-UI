@@ -10,6 +10,8 @@
 }
 
 .toast {
+    font-family: 'UniSans';
+    font-weight: 200;
     border-radius: 2px;
     top: 100px;
     width: auto;
@@ -25,7 +27,6 @@
     background-color: #323232;
     padding: 10px 25px;
     font-size: 1.1rem;
-    font-weight: 300;
     color: #fff;
     display: -webkit-box;
     display: -webkit-flex;
