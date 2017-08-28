@@ -45,11 +45,11 @@ All you have to do is just include `cobi-style.css` and `cobi-style.js` files to
 
 #### CSS:
 ``` html
-<link href="https://cdn.cobi.bike/devkit/css/cobi-style.css" rel="stylesheet">
+<link href="https://cdn.cobi.bike/devkit/v1.0.0/css/cobi-style.css" rel="stylesheet">
 ```
 #### JS:
 ``` html
-<script src="https://cdn.cobi.bike/devkit/js/cobi-style.min.js"></script>
+<script src="hhttps://cdn.cobi.bike/devkit/v1.0.0/js/cobi-style.min.js"></script>
 ```
 
 ## Html basic template
