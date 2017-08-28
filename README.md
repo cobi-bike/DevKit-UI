@@ -36,7 +36,7 @@
 
 
 # Quick start
-The COBI DevKit-UI library is a collection of the most common web UI elements, maily supposed to be used for building [COBI DevKit settings and manual pages](https://github.com/cobi-bike/DevKit#-settings-for-your-module). All elements are touch enabled, animated and responsive to provide a nice native (mobile) experience. The lib also comes with a shared COBI CSS style according to the COBI CI, so it blends perfectly in with the COBI native app when used for your own [COBI DevKit](https://github.com/cobi-bike/DevKit) module. In addition more complex components are provided to build for COBI module settings or manual page. See [Demo examples](#demo-examples). 
+The COBI DevKit-UI library is a collection of the most common web [UI components](#ui-components), maily supposed to be used for building [COBI DevKit settings and manual pages](https://github.com/cobi-bike/DevKit#-settings-for-your-module). All elements are touch enabled, animated and responsive to provide a nice native (mobile) experience. The lib also comes with a shared COBI CSS style according to the COBI CI, so it blends perfectly in with the COBI native app when used for your own [COBI DevKit](https://github.com/cobi-bike/DevKit) module. In addition more complex components are provided to build for COBI module settings or manual page. See [Demo examples](#demo-examples). 
 
 It's dead simple to integrate into your project. All you have to do is just include `cobi-style.css` and `cobi-style.js` files to your project!
 
@@ -59,7 +59,7 @@ Please follow these few rules for a proper and easy integration:
 
 # HTML basic template
 
-Pls always use this basic template to create all of your views.
+Always use this basic template to create all of your views.
 ``` html
 <!DOCTYPE html>
 <html>
