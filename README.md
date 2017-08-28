@@ -3,7 +3,7 @@
   <a href="https://cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/v1.0.0/resources/images/devkit-logo.svg">
   </a>
 
-  <h3 align="center">COBI Modules UI Components</h3>
+  <h3 align="center">COBI DevKit UI Components</h3>
 
   <p align="center">
     Sleek & intuitive UI components for faster and easier development of COBI Modules :rocket:
@@ -16,7 +16,7 @@
 
 <br>
 
-## Table of contents
+# Table of contents
 
 - [Quick start](#quick-start)
 - [General rules](#general-rules)
@@ -26,35 +26,40 @@
   - [Content](#content)
   - [Typography](#typography)
   - [Buttons](#buttons)
-  - [Title bars](#title-bars)
+  - [Title Bars](#title-bars)
   - [Forms](#forms)
-  - [Table-views](#table-views)
+  - [Table Views](#table-views)
   - [Modals](#modals)
   - [Toggle](#toggle)
   - [Icons](#icons)
+- [Credits](#credits)
 
 
-## Quick start
+# Quick start
+The COBI DevKit-UI library is a collection of the most common web [UI components](#ui-components), maily supposed to be used for building [COBI DevKit settings and manual pages](https://github.com/cobi-bike/DevKit#-settings-for-your-module). All elements are touch enabled, animated and responsive to provide a nice native (mobile) experience. The lib also comes with a shared COBI CSS style according to the COBI CI, so it blends perfectly in with the COBI native app when used for your own [COBI DevKit](https://github.com/cobi-bike/DevKit) module. In addition more complex components are provided to build for COBI module settings or manual page. See [Demo examples](#demo-examples). 
 
-## General rules:
-1. Make sure all your bars are the first things in your `<body>`.
-2. Entire content of your page should be wraped with `.content` class.
-3. Wrap elements with `.content-padded` class to give the content space around the screen.
+It's dead simple to integrate into your project. All you have to do is just include `cobi-style.css` and `cobi-style.js` files to your project!
 
-All you have to do is just include `cobi-style.css` and `cobi-style.js` files to your project!
-
-#### CSS:
+### CSS:
 ``` html
 <link href="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/css/cobi-style.css" rel="stylesheet">
 ```
-#### JS:
+### JS:
 ``` html
 <script src="https://cdn.cobi.bike/devkit/v1.0.0/v1.0.0/js/cobi-style.min.js"></script>
 ```
 
-## Html basic template
+# General rules
+Please follow these few rules for a proper and easy integration:
 
-Pls always use this basic template to create all of your views.
+1. Make sure to put a title bar always as  the first element in your `<body>`.
+2. The entire content of your page should be wraped with `.content` class.
+3. Wrap elements with `.content-padded` class to give the content space around the screen.
+
+
+# HTML basic template
+
+Always use this basic template to create all of your views.
 ``` html
 <!DOCTYPE html>
 <html>
@@ -87,11 +92,10 @@ Pls always use this basic template to create all of your views.
 </body>
 
 </html>
-
 ```
-## Demo examples
+# Demo examples
 
-### 1. App settings/description template
+## 1. App settings/description template
 
 Use this template to describe your app and build your settings page.
 
@@ -174,7 +178,7 @@ Use this template to describe your app and build your settings page.
 ```
 
 
-### 2. Modal template
+## 2. Modal template
 
 Use this template to describe your app and build your settings page.
 
@@ -200,7 +204,7 @@ Use this template to describe your app and build your settings page.
 </div>
 ```
 
-### 3. Settings template with nested view
+## 3. Settings template with nested view
 
 Use this template to build content of your settings page.
 
@@ -223,7 +227,7 @@ Use this template to build content of your settings page.
       <li class="table-view-cell">COBI toggle active
         <label class="toggle">
           <input type="checkbox" checked>
-          <div class="slider-circle round"></div>
+          <div class="slider-circle round"></div>s
         </label>
       </li>
       <li class="table-view-divider">Profile</li>
@@ -245,9 +249,9 @@ Use this template to build content of your settings page.
 </div>
 ```
 
-## UI Components
+# UI Components
 
-Series of examples that tell you how you can use COBI UI Components:
+Here's a series of examples/templates to show how to use COBI UI Components.
 
 ## Content
 
@@ -286,9 +290,9 @@ Use headings and paragraphs to title and describe sections of your app.
 <h4>COBI Style framework!</h4>
 <h5>COBI Style framework!</h5>
 <h6>COBI Style framework!</h6>
-```
+ ```
 
-Wrap elements with .content-padded class to give the content space around the screen.
+Wrap elements with `.content-padded` class to give the content space around the screen.
 
 ``` html
 <div class="content-padded">
@@ -296,12 +300,12 @@ Wrap elements with .content-padded class to give the content space around the sc
 </div>
 ```
 
-When you want to center headline or paragraphs in your view just add `class="text-center"`
+To center a headline or paragraphs in your view just add `class="text-center"`
 
 
 ## Buttons
 
-Buttons come in many flavors
+Buttons come in many flavors and support all kind of states:
 
 Regular button style
 ``` html
@@ -311,7 +315,8 @@ Disabled state
 ``` html
 <button class="btn disabled">Button text</button>
 ```
-Button with icon. You can find full list of icons <a>here</a>
+Button with icon. You can find the full list of icons [here](#icons).
+
 ``` html
 <button class="btn">Button text<span class="icon icon-right-nav"></span></button>
 ```
@@ -324,11 +329,11 @@ Button with COBI tarmac color
 <button class="btn tarmac">Button text</button>
 ```
 
-## Title bars
+## Title Bars
 
-Title bars are full width and docked to the top of the viewport. Make sure all your bars are the first things in your `<body>`
+Title bars are full width and docked to the top of the viewport. Make sure your title bar is the first element in your `<body>`.
 
-Bar with blue background (default)
+Title bar with blue background (default)
 ``` html
 <header class="bar bar-nav">
   <a class="icon icon-left-nav pull-left"></a>
@@ -337,21 +342,21 @@ Bar with blue background (default)
 </header>
 ```
 
-Bar with white background
+Title bar with white background
 ``` html
 <header class="bar light">
 </header>
 ```
 
-Bar with gray background
+Title bar with gray background
 ``` html
 <header class="bar gray">
 </header>
 ```
 
-### Forms
+## Forms
 
-Form with input group and labels. Use it to build your settings page.
+Form with input group and labels. Useful to build your module's [settings page](https://github.com/cobi-bike/DevKit#-settings-for-your-module).
 
 ``` html
 <form class="input-group">
@@ -392,7 +397,7 @@ Centered input with transparent background color and icon on left side.
 
 ## Table-views
 
-Table views can be used for build settings page.
+Table views are perfect to build a list of settings with a set of toggle buttons or input fields.
 
 ``` html
 <ul class="table-view">
@@ -422,7 +427,7 @@ Table views can be used for build settings page.
 </ul>
 ```
 
-When you want to open sub view of your settings page just use this and as href value use separate html with your sub view. Do not forget to include `cobi-style.min.js` file to your project.
+To open a sub view related to a settings entry just use this and as `href` value. You the can use a separate html for your sub view. Do not forget to include `cobi-style.min.js` file to your project.
 ``` html
 <ul class="table-view">
   <li class="table-view-cell">
@@ -433,7 +438,7 @@ When you want to open sub view of your settings page just use this and as href v
 
 ## Modals
 
-Modals are designed to be fire only from links, use `<a href="#myModalexample" class="btn blue">Open modal</a>` to fire modal div with `id="myModalexample"`. Do not forget to include `cobi-style.min.js` file to your project.
+Modals are designed to be triggered only by links, use `<a href="#myModalexample" class="btn blue">Open modal</a>` to trigger and open a modal div with `id="myModalexample"`. Do not forget to include `cobi-style.min.js` file to your project.
 
 ``` html
 <!-- Content of your page -->
@@ -456,7 +461,7 @@ Modals are designed to be fire only from links, use `<a href="#myModalexample" c
 
 ## Toggle
 
-Toggles can be used by tapping the control.
+Toggles are swiched by tapping the control.
 
 ``` html
 <label class="toggle"><input type="checkbox"><div class="slider-circle round"></div></label>
@@ -464,7 +469,7 @@ Toggles can be used by tapping the control.
 
 ## Icons
 
-When you want to use icon just grab one from here:
+Here's a list of useful icons to be used in your project if needed: 
 
 ``` html
 <div class="content-padded">
@@ -511,7 +516,7 @@ When you want to use icon just grab one from here:
 </div>
 ```
 
-## Credits
+# Credits
 
 This application uses Open Source components. You can find the source code of their open source projects along with license information below. We acknowledge and are grateful to these developers for their contributions to open source.
 
