@@ -513,3 +513,11 @@ When you want to use icon just grab one from here:
   <span class="icon icon-left"></span>
 </div>
 ```
+
+## Credits
+
+This application uses Open Source components. You can find the source code of their open source projects along with license information below. We acknowledge and are grateful to these developers for their contributions to open source.
+
+Project: Ratchet https://github.com/twbs/ratchet
+Copyright connors and other contributors. All right reserved.
+License (MIT) https://github.com/twbs/ratchet/blob/master/LICENSE
