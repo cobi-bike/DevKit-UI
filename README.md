@@ -49,7 +49,7 @@ It's dead simple to integrate into your project. All you have to do is just incl
 <script src="hhttps://cdn.cobi.bike/devkit/v1.0.0/js/cobi-style.min.js"></script>
 ```
 
-## General rules
+# General rules
 Please follow these few rules for a proper and easy integration:
 
 1. Make sure to put a title bar always as  the first element in your `<body>`.
