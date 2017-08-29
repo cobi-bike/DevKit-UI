@@ -52,3 +52,9 @@
       border: 2px $tarmac-color solid;
     }
 }
+
+@media only screen and (max-width: 600px) {
+  #toast-container {
+    min-width: 0 !important;
+  }
+}
