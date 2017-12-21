@@ -3,12 +3,12 @@
   <a href="https://cobi.bike"><img width="90px" height="90px" src="https://cdn.cobi.bike/devkit/v1.0.0/resources/images/devkit-logo.svg">
   </a>
 
-  <h3 align="center">COBI DevKit UI Components</h3>
+  <h3 align="center">COBI.bike DevKit UI Components</h3>
 
   <p align="center">
-    Sleek & intuitive UI components for faster and easier development of COBI Modules :rocket:
+    Sleek & intuitive UI components for faster and easier development of COBI.bike modules :rocket:
     <br>
-    <a href="https://github.com/cobi-bike/devkit"><strong>This project is part of the COBI DevKit</strong></a>
+    <a href="https://github.com/cobi-bike/devkit"><strong>This project is part of the COBI.bike DevKit</strong></a>
     <br>
     <br>
   </p>
@@ -36,7 +36,7 @@
 
 
 # Quick start
-The COBI DevKit-UI library is a collection of the most common web [UI components](#ui-components), mainly supposed to be used for building [COBI DevKit settings and manual pages](https://github.com/cobi-bike/DevKit#-settings-for-your-module). All elements are touch enabled, animated and responsive to provide a nice native (mobile) experience. The lib also comes with a shared COBI CSS style according to the COBI CI, so it blends perfectly in with the COBI native app when used for your own [COBI DevKit](https://github.com/cobi-bike/DevKit) module. In addition more complex components are provided to build for COBI module settings or manual page. See [Demo examples](#demo-examples).
+The COBI.bike DevKit-UI library is a collection of the most common web [UI components](#ui-components), mainly supposed to be used for building [DevKit settings and manual pages](https://github.com/cobi-bike/DevKit#-settings-for-your-module). All elements are touch enabled, animated and responsive to provide a nice native (mobile) experience. The lib also comes with a shared CSS style according to the COBI.bike CI, so it blends perfectly in with the native COBI.bike app when used for your own [DevKit](https://github.com/cobi-bike/DevKit) module. In addition more complex components are provided to build for module settings or manual page. See [Demo examples](#demo-examples).
 
 It's dead simple to integrate into your project. All you have to do is just include `cobi-style.css` and `cobi-style.js` files to your project!
 
@@ -66,7 +66,7 @@ Always use this basic template to create all of your views.
 
 <head>
   <meta charset="utf-8">
-  <title>COBI template page</title>
+  <title>COBI.bike template page</title>
 
   <!-- Sets initial viewport load and disables zooming  -->
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -75,10 +75,10 @@ Always use this basic template to create all of your views.
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <!-- Include the compiled COBI CSS -->
+  <!-- Include the compiled COBI.bike CSS -->
   <link href="https://cdn.cobi.bike/devkit/v1.0.0/css/cobi-style.css" rel="stylesheet">
 
-  <!-- Include the compiled COBI JS -->
+  <!-- Include the compiled COBI.bike JS -->
   <script src="https://cdn.cobi.bike/devkit/v1.0.0/js/cobi-style.min.js"></script>
 
 </head>
@@ -218,13 +218,13 @@ Use this template to build content of your settings page.
     <p class="content-padded text-center">This is the example page with settings view. Feel free to use it in your project.</p>
     <ul class="table-view">
       <li class="table-view-cell"><a class="navigate-right" href="push.html" data-transition="slide-in">Load new page with push</a></li>
-      <li class="table-view-cell">COBI toggle
+      <li class="table-view-cell">COBI.bike toggle
         <label class="toggle">
           <input type="checkbox">
           <div class="slider-circle round"></div>
         </label>
       </li>
-      <li class="table-view-cell">COBI toggle active
+      <li class="table-view-cell">COBI.bike toggle active
         <label class="toggle">
           <input type="checkbox" checked>
           <div class="slider-circle round"></div>s
@@ -251,7 +251,7 @@ Use this template to build content of your settings page.
 
 # UI Components
 
-Here's a series of examples/templates to show how to use COBI UI Components.
+Here's a series of examples/templates to show how to use COBI.bike UI Components.
 
 ## Content
 
@@ -271,7 +271,7 @@ Gray:
 </div>
 ```
 
-COBI Surf Blue:
+COBI.bike Surf Blue:
 ``` html
 <div class="content blue">
   <!-- content of your page go here -->
@@ -284,12 +284,12 @@ COBI Surf Blue:
 Use headings and paragraphs to title and describe sections of your app.
 
  ``` html
-<h1>COBI Style framework!</h1>
-<h2>COBI Style framework!</h2>
-<h3>COBI Style framework!</h3>
-<h4>COBI Style framework!</h4>
-<h5>COBI Style framework!</h5>
-<h6>COBI Style framework!</h6>
+<h1>COBI.bike Style framework!</h1>
+<h2>COBI.bike Style framework!</h2>
+<h3>COBI.bike Style framework!</h3>
+<h4>COBI.bike Style framework!</h4>
+<h5>COBI.bike Style framework!</h5>
+<h6>COBI.bike Style framework!</h6>
  ```
 
 Wrap elements with `.content-padded` class to give the content space around the screen.
@@ -320,11 +320,11 @@ Button with icon. You can find the full list of icons [here](#icons).
 ``` html
 <button class="btn">Button text<span class="icon icon-right-nav"></span></button>
 ```
-Button with COBI surf blue color
+Button with COBI.bike surf blue color
 ``` html
 <button class="btn blue">Button text</button>
 ```
-Button with COBI tarmac color
+Button with COBI.bike tarmac color
 ``` html
 <button class="btn tarmac">Button text</button>
 ```
@@ -366,7 +366,7 @@ Form with input group and labels. Useful to build your module's [settings page](
   </div>
   <div class="input-row">
     <label>Example</label>
-    <input type="email" placeholder="cobistyle@gmail.com">
+    <input type="email" placeholder="mail@cobi.bike">
   </div>
   <div class="input-row">
     <label>Example</label>
@@ -407,14 +407,14 @@ Table views are perfect to build a list of settings with a set of toggle buttons
   <li class="table-view-cell table-view-cell">
     <a class="navigate-right">Item 2</a>
   </li>
-  <li class="table-view-cell">COBI toggle<label class="toggle"><input type="checkbox"><div class="slider-circle round"></div></label></li>
+  <li class="table-view-cell">COBI.bike toggle<label class="toggle"><input type="checkbox"><div class="slider-circle round"></div></label></li>
   <li class="table-view-cell">
     <a>Item 1</a>
   </li>
   <li class="table-view-cell table-view-cell">
     <a>Item 2</a>
   </li>
-  <li class="table-view-cell">COBI toggle
+  <li class="table-view-cell">COBI.bike toggle
     <label class="toggle">
     <input type="checkbox" checked>
       <div class="slider-circle round"></div>
